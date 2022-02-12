@@ -3,6 +3,65 @@ Repositorio para proyecto final
 
 =======
 
+# Formula 1 history through data analysis
+
+The selected topic for our project is "Formula 1 history throughugh data abalysis", we seleceted this topic because of all the available and verifyable information available, the diverse variables that determine the outcome of this sport and twy to solve through data, the main questions all F1 fans have asqued themselves at some point. What provides the best leverage in the sport, the man, the machine or the strategy?
+
+### Dataset 
+
+We looked for information that can be usable for this purposes, the characteristics of the data that we could use for the purposes of our project are the following:
+
+* Should be accurate.
+* Should be verifyable.
+* Should be diverse enough to perform our analysis.
+
+We found a group of datasets that could be useful for our pusposes on the following link:
+
+https://www.kaggle.com/williamhaworth/formula-1-kaggle-learning/data
+
+In the link mentioned above, we found datasets related to Formula 1 racing from the year 1950 to 2021, the datasets that we will use are formatted in csv and contain information about:
+
+circuits.csv
+constructor_results.csv
+constructor_standings.csv
+constructors.csv
+driver_standings.csv
+drivers.csv
+lap_times.csv
+pit_stops.csv
+qualifying.csv
+races.csv
+results.csv
+seasons.csv
+status.csv
+
+## Questions to be answered
+
+Ww will try to answer through data, questions that fans and analysts have asked about this sport since its very beginning, which is more important? The man, the machine or the strategy? we will leave budget ans sponsors out of the analysis this time.
+
+Some of the questions we have initially designed with the available datasets are the following:
+
+* How relevant is the driver vs the car to determine a championship output?
+* How relevant is the pit stop average time to a championshio output?
+* Which are the most relevant mechanical failures to determine a constructor, championship output?
+* How relevant is the number of pole positions to the championship output?
+
+
+## Machine learning models
+
+After cleaning and grouping the relevant datasets, we will use a non supervised machine learning model to expose relevant correlations that are not evident, select the most meaningulf ones and then predict possibles outcomes through supervised machine learning.
+
+
+
+
+
+
+
+
+
+
+
+
 1.- Quién puede ganar el proximo F1?
 
 
