@@ -48,3 +48,60 @@ The database that we are using has information regarding some important aspects 
 - Results
 - Seasons
 - Status
+
+
+We are going to analyzed this data and clean it, and get only the information that will help us to get the answered that we are looking for. The answer to our question “- Which factor is the determinant to get a F1 winner?”.
+
+The data is presented in csv format.
+
+Table 1.- Circuits
+
+Circuit reference, name, location, country, lat & long, alt
+
+Table 2.- Constructor results
+
+Raceid, constructor id, points, status
+
+Table 3.- Constructor standings
+
+Raceid, constructor id, points, position, positionText, wins
+
+Table4.- Constructors
+
+Constructor id, constructor ref, name, nationality
+
+Table 5.- Driver standings
+
+Raceid, driverid, points, position, positionText, wins
+
+Table 6.- Drivers
+
+Driverid, driver ref, number, code, forename, surname, dob, nationality
+
+Table 7.- Lap Times
+
+Raceid, driverid, lap, postion, time, milliseconds
+
+Table 8.- Pit stops
+
+Raceid, driverid, stop, lap, time, duration, milliseconds
+
+Table 9.- Qualifying
+
+Qualifyid, raceid, driverid, constructorid, number, position, q1, q2, q3
+
+Table 10.- Races
+
+Raceid, year, round, circuitid, name, date, time
+
+Table 11.- Results
+
+Resultid, raceid, driverid, constructorid, number, grid, position, positionText, points, laps, time, rank, statusid
+
+Table 12.- Seasons
+
+Years
+
+Table13.- Status
+
+Statusid, status
