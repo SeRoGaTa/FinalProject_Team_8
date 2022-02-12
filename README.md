@@ -29,3 +29,22 @@ For us to get to the answer we are going to analyzed the data regarding some imp
 - Lap times
 - Circuits characteristics
 - Race results
+
+
+### Database integration
+
+The database that we are using has information regarding some important aspects about F1.
+
+- Circuits
+- Constructor results
+- Constructor standing
+- Constructors
+- Driver standings
+- Drivers
+- Lap times
+- Pit stops
+- Qualifying 
+- Races
+- Results
+- Seasons
+- Status
