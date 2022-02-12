@@ -1,6 +1,7 @@
 # FinalProject_Team_8
 Repositorio para proyecto final
 
+=======
 
 1.- Quién puede ganar el proximo F1?
 
@@ -50,3 +51,6 @@ Cuales son los factores que afectan el resultado de una carrera?
 -   Resultados previos de constructoras y pilotos
 
 Cluster de factores de la escuderia y del piloto
+main
+
+sergio_gaytan - este es mi prueba de commit
