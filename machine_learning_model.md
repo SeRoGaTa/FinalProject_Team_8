@@ -1,4 +1,4 @@
-# Machine Learning Model
+# Machine learning models
 For the purposes of this project, we could use the following statistical techniques and machine learning models:
 
 ## Correlation analysis
@@ -18,10 +18,9 @@ Assumptions:
 3.	There is variability in the independent x variable. 
 4.	The residual error (the distance from each data point to the line) should be normally distributed.
 
-## Machine learning models
+### Supervised Learning
 We believe we can use some supervised model to deal with our research question, as we know who the winner for every race was. Machine learning models let us predict, based on data from previous patients who driver could win based on some features
 
-### Supervised Learning
 Logistic regression predicts binary outcomes and evaluates the probability of an occurrence, so we can calculate the percentage of possibility for one drive who own to one constructor to win a race using multiple variables as qualify position, time on pit stops, drivers experience and also tracks. The model would take features into account and decide whether a driver can or not win meaning that there are only two possible outcomes.
 
 Like logistic regression, Support vector machine (SVM) is another supervised learning model that we can use to classify if a sample is categorized into one of two possibilities (win or lose). Finally applying a Random forest algorithm, we can rank the importance of input variables in order to remove some variables that could be affecting the model. 
