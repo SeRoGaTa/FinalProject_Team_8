@@ -1,5 +1,4 @@
 # Machine Learning Model
-
 For the purposes of this project, we could use the following statistical techniques and machine learning models:
 
 ## Correlation analysis
