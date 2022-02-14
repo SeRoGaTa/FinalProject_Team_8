@@ -130,7 +130,6 @@ The team decided that each member of the team review the databases to become fam
 
   circuits.csv constructor_results.csv constructor_standings.csv constructors.csv driver_standings.csv drivers.csv lap_times.csv pit_stops.csv qualifying.csv races.csv results.csv seasons.csv status.csv
 
-
   The database that we are using has information regarding some important aspects about F1.
   
 - Circuits
@@ -213,17 +212,17 @@ We are going to analyzed this data and clean it, and get only the information th
 
 ## Technologies Used
 
-Data Cleaning and Analysis
+  - Data Cleaning and Analysis
 
   Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python. As a query techonoly we will use some SQL in Postgres to merge and analyze the complete data prior to start our analysis.
-
+  
   - Database Storage
 
   Postgres will be the tool we will use to store our data in SQL, we will use pandas to read the information out from a CSV source and will move those dataframes into a SQL databases.
 
   We will use 13 F1 related data.
 
-- Machine Learning
+  - Machine Learning
 
   For Correlation analysis we will use R geom_point() plotting function combined with the cor() function to quantify the correlation between variables. Also we will use the lm() function in R or the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
 
@@ -231,7 +230,7 @@ Data Cleaning and Analysis
   
   Other statistical techniques as PCA will help us to create clusters and with that define if either the constructor or the pilot has more leverage on winning a race.
 
-- Dashboard
+  - Dashboard
   
   In order to create visual graphs and the story telling about our analysis, we will use Tableau and python as the visualisation tool among others. With this we will be able to share our findings in a more graphical manner for our collaborators.
 
