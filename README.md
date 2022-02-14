@@ -95,19 +95,20 @@ We use GitHub as a communication protocol by creating a personal branch for each
 
 Using branches let us work on our local repository to then update to the main branch and have the chance to review the branch or offer suggestions. In this space we can test modifications in the code without the problem of affecting the global code or the advances made
 
+```ruby
 git Branch -d nomeofbranch
+```
 
 ### Open a pull request
 
 After having tested our code locally, we proceed to perform a pull request to merge the code
 
+```ruby
 git status
-
 git add .
-
 git commmit -m "Commit message"
-
 git push --set upstream origin <Branch-Name>
+```
 
 ### Discuss and review
 
@@ -118,17 +119,12 @@ At least one teammate has to review the pull request, if it is necessary suggest
   After approval, the member who pull the request can merge the changes into the main branch
 
 
-Week logs
+### Week logs
 
-  Week 1
+**Week 1**
 
 During the first week, all the members of the team investigated topics of interest that would help us to decide on a topic to work on. By vote the team decided on the topic, later we agreed on the research question.
 The team decided that each member of the team review the databases to become familiar with the data and meet over the weekend to determine which databases to use, if any transformations or joins are needed, and define the model to use.
-
-Team members
-
-  -Ricardo Barba @ -Sergio Gaytan @ -Jorge Ponce @ -Raciel Tavitas @
-
 
 ## Database integration
 
@@ -253,3 +249,6 @@ Other statistical techniques as PCA will help us to create clusters and with tha
   
   In order to create visual graphs and the story telling about our analysis, we will use Tableau and python as the visualisation tool among others. With this we will be able to share our findings in a more graphical manner for our collaborators.
 
+### Team members
+
+  -Ricardo Barba @ -Sergio Gaytan @ -Jorge Ponce @ -Raciel Tavitas @
