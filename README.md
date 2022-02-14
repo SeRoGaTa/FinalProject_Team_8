@@ -84,7 +84,6 @@ Depending in our final dataset, if It has many data points or complex features, 
 
 At this moment, we cannot rule out the use of an unsupervised learning model, even when we know the previous result on our database. We can use this type of model to find hidden patterns.
 
-
 ## Communication protocols
 
 We decide to use direct messages for only team members in Slack and establish a daily meetup time for everyone on saturdays.
@@ -118,7 +117,6 @@ At least one teammate has to review the pull request, if it is necessary suggest
 
   After approval, the member who pull the request can merge the changes into the main branch
 
-
 ### Week logs
 
 **Week 1**
@@ -131,7 +129,6 @@ The team decided that each member of the team review the databases to become fam
   In the link mentioned above, we found datasets related to Formula 1 racing from the year 1950 to 2021, the datasets that we will use are formatted in csv and contain information about:
 
   circuits.csv constructor_results.csv constructor_standings.csv constructors.csv driver_standings.csv drivers.csv lap_times.csv pit_stops.csv qualifying.csv races.csv results.csv seasons.csv status.csv
-
 
   The database that we are using has information regarding some important aspects about F1.
   
@@ -153,102 +150,90 @@ We are going to analyzed this data and clean it, and get only the information th
 
   The data is presented in csv format.
 
-  Table 1.- Circuits
+  **Table 1.- Circuits**
 
   Circuit reference, name, location, country, lat & long, alt
   
- 
   <img width="848" alt="Screen Shot 2022-02-13 at 15 56 56" src="https://user-images.githubusercontent.com/90534703/153774805-0d3824af-ebed-447b-82c9-39ab67ad3fd1.png">
 
-
-  Table 2.- Constructor results
+  **Table 2.- Constructor results**
 
   Raceid, constructor id, points, status
   
   <img width="854" alt="Screen Shot 2022-02-13 at 15 57 03" src="https://user-images.githubusercontent.com/90534703/153774813-05474566-94d3-4032-b898-879a9b193a4f.png">
 
-  
-
-  Table 3.- Constructor standings
+  **Table 3.- Constructor standings**
 
   Raceid, constructor id, points, position, positionText, wins
 
-  Table4.- Constructors
+  **Table 4.- Constructors**
 
   Constructor id, constructor ref, name, nationality
 
-  Table 5.- Driver standings
+  **Table 5.- Driver standings**
 
   Raceid, driverid, points, position, positionText, wins
 
-  Table 6.- Drivers
+  **Table 6.- Drivers**
 
   Driverid, driver ref, number, code, forename, surname, dob, nationality
   
-
  <img width="835" alt="Screen Shot 2022-02-13 at 15 57 07" src="https://user-images.githubusercontent.com/90534703/153774821-d120ea1b-550d-4292-9551-700d4fba41ad.png">
 
-
-  Table 7.- Lap Times
+  **Table 7.- Lap Times**
 
   Raceid, driverid, lap, postion, time, milliseconds
 
-  Table 8.- Pit stops
+  **Table 8.- Pit stops**
 
   Raceid, driverid, stop, lap, time, duration, milliseconds
 
-  Table 9.- Qualifying
+  **Table 9.- Qualifying**
 
   Qualifyid, raceid, driverid, constructorid, number, position, q1, q2, q3
 
-  Table 10.- Races
+  **Table 10.- Races**
 
   Raceid, year, round, circuitid, name, date, time
   
   <img width="860" alt="Screen Shot 2022-02-13 at 15 57 12" src="https://user-images.githubusercontent.com/90534703/153774834-6ba1a58d-d952-4b28-a879-d605eeabe2c1.png">
 
-  
-
-  Table 11.- Results
+  **Table 11.- Results**
 
   Resultid, raceid, driverid, constructorid, number, grid, position, positionText, points, laps, time, rank, statusid
 
-  Table 12.- Seasons
+  **Table 12.- Seasons**
 
   Years
 
-  Table13.- Status
+  **Table13.- Status**
 
   Statusid, status
 
-
 ## Technologies Used
 
-Data Cleaning and Analysis
+  - Data Cleaning and Analysis
 
   Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python. As a query techonoly we will use some SQL in Postgres to merge and analyze the complete data prior to start our analysis.
-
-
-  Database Storage
+  
+  - Database Storage
 
   Postgres will be the tool we will use to store our data in SQL, we will use pandas to read the information out from a CSV source and will move those dataframes into a SQL databases.
 
   We will use 13 F1 related data.
 
-
-  Machine Learning
+  - Machine Learning
 
   For Correlation analysis we will use R geom_point() plotting function combined with the cor() function to quantify the correlation between variables. Also we will use the lm() function in R or the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
 
   For Machine Learning we are planning to use sklearn (LogisticRegression, SVC and RandomForestClassifier) module and hvplot for ploting mainly. Also if it is necessary we will use tensorflow to run a neural network model
+  
+  Other statistical techniques as PCA will help us to create clusters and with that define if either the constructor or the pilot has more leverage on winning a race.
 
-Other statistical techniques as PCA will help us to create clusters and with that define if either the constructor or the pilot has more leverage on winning a race.
-
-
-  Dashboard
+  - Dashboard
   
   In order to create visual graphs and the story telling about our analysis, we will use Tableau and python as the visualisation tool among others. With this we will be able to share our findings in a more graphical manner for our collaborators.
 
-### Team members
+## Team members
 
   -Ricardo Barba @ -Sergio Gaytan @ -Jorge Ponce @ -Raciel Tavitas @
