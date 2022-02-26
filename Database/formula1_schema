@@ -1,3 +1,6 @@
+-- Formula 1 project schema 
+-- Here we create all the 13 tables squemas that will be loaded from csv and stored in AWS RDS instance.
+
 CREATE TABLE circuits (
 	circuitId int PRIMARY KEY NOT NULL,
 	circuitRef varchar(255),
@@ -129,4 +132,44 @@ CREATE TABLE constructor_results (
 	constructorId int REFERENCES constructors(constructorId),
 	points float, 
 	status varchar(255)
+);
+
+CREATE TABLE points_collision (
+	resultId int REFERENCES results(resultId),	
+	total_points_driver	float,
+	average_col_acc float
+);	
+select * from weather
+CREATE TABLE weather (
+	raceId	int REFERENCES races(raceId),
+	weather	varchar(255),
+	weather_type int
+);
+
+-- Creating main table as an static join from the results and the status table from where the complete analysis will start 
+
+CREATE TABLE main AS (
+	SELECT r.resultId, 
+		r.raceId, 
+		r.driverId,
+		r.constructorId, 
+		r.number,
+		r.grid, 
+		r.position,
+		r.positionText, 
+		r.positionOrder, 
+		r.points,
+		r.laps, 
+		r.time, 
+		r.milliseconds,
+		r.fastestLap,
+		r.rank, 
+		r.fastestLapTime,
+		r.fastestLapSpeed,
+		s.statusId,
+		s.status
+	FROM results AS r
+		INNER JOIN status AS s
+			ON r.statusId=s.statusId
+	WHERE raceId >=989
 );
