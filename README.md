@@ -173,19 +173,21 @@ Plotting the final results by driver, we can see that the drivers with the best 
 ## Database integration
 
 Once that the project team has obtained a useful data source, the next step will be analyzing the data and integrate all the useful information to calculate new relevant variables for the project.
-The datasets are formatted in csv, so the team inspected datatypes in jupyter notebook, looked for null data or any other anomaly on the datasets that would need to be cleaned.
-Once cleaned, we inspected the datatypes, the datatypes for the relevant inputs are the following:
+The dataset was pushed into SQL from S3 storage in AWS, so the team inspected datatypes in google colab, looked for null data or any other anomaly on the datasets that would need to be cleaned.
+Once cleaned, the data was written to the AWS RDS database with the help of postgres, the schema was previously created with PG Admin4. 
 
+We performed in jupyter notebook with Python and google colab with pyspark code changes to datatypes to numerical data presented as object to perform calculations and determine correlations between data.
 
-We performed in jupyter notebook with Python code changes to datatypes to numerical data presented as object to perform calculations and determine correlations between data.
+To start the database integration, we followed the following steps:
+- Create an S3 bucket in AWS repository and save the CSV files (15) that will be used in the project.
+- Read the CSV files with PySpark in google colab and clean datatypes for all the dataframes.
+- Create a RDS instance in AWS to store the database
+- Use PG Admin 4 to create the schema of the database in AWS RDS
+- Use Pyspark and Postgress to write the dataframes into the database’s tables previously created.
+- Use SQL in PG Admin to filter and then merge results and status tables to create a main table that will be used to start the complete analysis.
 
-To start the database integration we followed the following steps:
-•	Read the CSV files with PySpark.
-•	Convert CSV to dataframes.
-•	Use Postgress to map the dataframes and run a squema to build a single database that integrates all the relevant data from different dataframes.
-•	Merge the dataframes to create a single “Main” database.
-•	Upload the database to AWS.
-The results of the mapping of the dataframes to integrate the database is as follows:
+This is the visual schema and the relationships we will use:
+
 ![image](https://user-images.githubusercontent.com/90175232/155905084-6e6f8c09-37ef-418b-a5c1-6eee31fe2597.png)
 
 ![image](https://user-images.githubusercontent.com/90175232/155905091-5c8ebd89-5043-4867-8b06-62435fcf4e89.png)
@@ -275,17 +277,13 @@ The team decided that each member of the team review the databases to become fam
 
 ## Visual representation and dashboards
 
-The results and graphic representation of the project will be displayed in Tableau.
-The objective of the project is to give an appropriate context of the sport through data before trying to predict the outcome of future races, so we will create and plot worksheets with relevant information to give the user a complete story and relevant data of the sport.
+### Tableau
 
-The worksheets and the visual representation that will be used are as follows:
+Tableau is a visual analytics platform transforming the way we use data to solve problems—empowering people and organizations to make the most of their data
+Tableau is acknowledged as one of the leaders in industry to cover BI&A (Business Intelligence and Analytics) just behind Power BI as per Gartner 2021 magic quadrants for BI&A
 
-![image](https://user-images.githubusercontent.com/90175232/155905196-ea0753ae-e1ff-4e3e-bb0b-bd2420ef8927.png)
+![image](https://user-images.githubusercontent.com/90204875/155926860-8287bc8c-87cd-4f45-9061-8483528aa887.png)
 
-The final dashboard will include a combination of this worksheets visual representation.
-
-
-## Visual representation and dashboards
 
 The results and graphic representation of the project will be displayed in Tableau.
 The objective of the project is to give an appropriate context of the sport through data before trying to predict the outcome of future races, so we will create and plot worksheets with relevant information to give the user a complete story and relevant data of the sport.
@@ -297,25 +295,27 @@ The final dashboard will include a combination of this worksheets visual represe
 
 ## Technologies Used
 
-Data Cleaning and Analysis
+ - Data Cleaning and Analysis
 
-  Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python. As a query techonoly we will use some SQL in Postgres to merge and analyze the complete data prior to start our analysis.
+Python pyspark and pandas will be used to clean the data and perform an exploratory analysis. As a query technology we will use SQL in PG Admin4  to merge and query the complete data prior to start our analysis.
+ 
+ - Database Storage
 
-  - Database Storage
+AWS RDS, AWS S3, Python Pyspark and postgres will be the tools we will use to store and read our data from SQL cloud service, we will use python to read the information out from SQL source and will start the analysis from there.
 
-  Postgres will be the tool we will use to store our data in SQL, we will use pandas to read the information out from a CSV source and will move those dataframes into a SQL databases.
 
-  We will use 13 F1 related data.
+  We will use 15 F1 related data.
 
 - Machine Learning
 
-  For Correlation analysis we will use python to quantify the correlation between variables. Also we will use the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
+For Correlation analysis we will use R geom_point() plotting function combined with the cor() function to quantify the correlation between variables. Also, we will use the lm() function in R or the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
+For Machine Learning we are planning to use sklearn (LogisticRegression, SVC and RandomForestClassifier) module and hvplot for ploting mainly. Also, if it is necessary, we will use tensorflow to run a neural network model
+Other statistical techniques as PCA will help us to create clusters and with that define if either the constructor or the pilot has more leverage on winning a race.
 
-  For Machine Learning we are planning to use sklearn (LogisticRegression, SVC and RandomForestClassifier) module. Also if it is necessary we will use tensorflow to run a neural network model
-  
-- Dashboard
-  
-  In order to create visual graphs and the story telling about our analysis, we will use Tableau and python as the visualisation tool among others. With this we will be able to share our findings in a more graphical manner for our collaborators.
+ - Dashboard
+
+In order to create visual graphs and the story telling about our analysis, we will use Tableau and python as the visualization tool among others. With this we will be able to share our findings in a more graphical manner for our collaborators.
+
 
 ## Team members
 
