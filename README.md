@@ -29,12 +29,7 @@ The project team inspected randomly some of the data to verify its accuracy thro
 The project team concluded that the data is accurate and can be used for the purpose of this project the compilation can be found in the following URL:
 Formula 1 World Championship (1950 - 2021)
 
-URL: https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020
-
-An important aspect of the data sources was the diversity of the available data, on the compile can be identified diverse datasets that are useful for the project, a list and description of the datasets is as follows:
-
 <details><summary>Tables Description</summary>
-
 
 **Table 1.- Circuits**
 
@@ -289,6 +284,16 @@ The worksheets and the visual representation that will be used are as follows:
 
 The final dashboard will include a combination of this worksheets visual representation.
 
+
+## Visual representation and dashboards
+
+The results and graphic representation of the project will be displayed in Tableau.
+The objective of the project is to give an appropriate context of the sport through data before trying to predict the outcome of future races, so we will create and plot worksheets with relevant information to give the user a complete story and relevant data of the sport.
+
+The worksheets and the visual representation that will be used are as follows:
+
+![image](https://user-images.githubusercontent.com/90175232/155905196-ea0753ae-e1ff-4e3e-bb0b-bd2420ef8927.png)
+The final dashboard will include a combination of this worksheets visual representation.
 
 ## Technologies Used
 
