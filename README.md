@@ -308,9 +308,9 @@ AWS RDS, AWS S3, Python Pyspark and postgres will be the tools we will use to st
 
 - Machine Learning
 
-For Correlation analysis we will use R geom_point() plotting function combined with the cor() function to quantify the correlation between variables. Also, we will use the lm() function in R or the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
-For Machine Learning we are planning to use sklearn (LogisticRegression, SVC and RandomForestClassifier) module and hvplot for ploting mainly. Also, if it is necessary, we will use tensorflow to run a neural network model
-Other statistical techniques as PCA will help us to create clusters and with that define if either the constructor or the pilot has more leverage on winning a race.
+For Correlation analysis we will use python to quantify the correlation between variables. Also we will use the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
+
+For Machine Learning we are planning to use sklearn (LogisticRegression, SVC and RandomForestClassifier) module. Also if it is necessary we will use tensorflow to run a neural network model
 
  - Dashboard
 
