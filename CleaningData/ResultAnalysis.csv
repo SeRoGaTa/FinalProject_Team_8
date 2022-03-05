@@ -1,0 +1,25 @@
+Test,Driver,Car,Model,Prediction,Real
+Driver comparison,Max_Verstappen,Mercedes,rf_modelFX2,35,15
+Driver comparison,Max_Verstappen,Mercedes,rf_modelFX4,39,15
+Driver comparison,Max_Verstappen,Mercedes,classifierFix1,51,15
+Driver comparison,Sergio_Perez,Mercedes,rf_modelFX2,0,1
+Driver comparison,Sergio_Perez,Mercedes,rf_modelFX4,0,1
+Driver comparison,Sergio_Perez,Mercedes,classifierFix1,18,1
+Driver comparison,Charles_Leclerc,Mercedes,rf_modelFX2,0,2
+Driver comparison,Charles_Leclerc,Mercedes,rf_modelFX4,1,2
+Driver comparison,Charles_Leclerc,Mercedes,classifierFix1,5,2
+Driver comparison,Esteban_Ocon,Mercedes,rf_modelFX2,0,1
+Driver comparison,Esteban_Ocon,Mercedes,rf_modelFX4,0,1
+Driver comparison,Esteban_Ocon,Mercedes,classifierFix1,1,1
+Constructor comparison,Hamilton,Red Bull,rf_modelFX2,58,41
+Constructor comparison,Hamilton,Red Bull,rf_modelFX4,59,41
+Constructor comparison,Hamilton,Red Bull,classifierFix1,65,41
+Constructor comparison,Hamilton,Mclaren,rf_modelFX2,5,30
+Constructor comparison,Hamilton,Mclaren,rf_modelFX4,4,30
+Constructor comparison,Hamilton,Mclaren,classifierFix1,32,30
+Constructor comparison,Hamilton,Alfa Romeo,rf_modelFX2,0,30
+Constructor comparison,Hamilton,Alfa Romeo,rf_modelFX4,0,30
+Constructor comparison,Hamilton,Alfa Romeo,classifierFix1,4,30
+Constructor comparison,Hamilton,William,rf_modelFX2,0,30
+Constructor comparison,Hamilton,William,rf_modelFX4,0,30
+Constructor comparison,Hamilton,William,classifierFix1,22,30
