@@ -1,0 +1,60 @@
+resultid,raceid,driverid,constructorid,number,grid,position,positiontext,positionorder,points,laps,time,milliseconds,fastestlap,rank,fastestlaptime,fastestlapspeed,statusid,status,driverref,constructorref,circuitid,name,year,circuitref,alt,weather,weather_type,total_points_driver,average_col_acc,rankfast,sumpits,points_season,points_circuit,constructor_failures,constructor_failures_driver,constructor_failures_driver_constructor,rank_yrs_exp_driver,rank_exp_driver,rank_wins_driver,rank_run_circuit,rank_quali_wins_driver,driver_failures
+24204,1010,1,131,44,1,2,2,2,18,58,20.886,5148211,17,2,01:26.1,221.839,1,Finished,hamilton,mercedes,1,Australian Grand Prix,2019,albert_park,10,Sereno,1,1,0.01,16,8,4,5,2,1,5,2,3,1,3,1,4
+24223,1011,1,131,44,3,1,1,1,25,57,34:21.3,5661295,14,2,01:33.5,208.314,1,Finished,hamilton,mercedes,3,Bahrain Grand Prix,2019,bahrain,7,Sereno,1,1,0.01,12,5,4,3,2,0,5,2,3,1,2,1,0
+24243,1012,1,131,44,2,1,1,1,25,56,32:06.4,5526350,53,5,01:35.9,204.642,1,Finished,hamilton,mercedes,17,Chinese Grand Prix,2019,shanghai,5,Nuvoloso,2,1,0.01,7,6,4,3,2,0,5,2,3,1,3,1,3
+24264,1013,1,131,44,2,2,2,2,18,51,1.524,5514466,38,3,01:44.2,207.465,1,Finished,hamilton,mercedes,73,Azerbaijan Grand Prix,2019,BAK,-7,Sereno,1,1,0.01,6,4,4,3,2,0,5,2,3,1,1,1,0
+24283,1014,1,131,44,2,1,1,1,26,66,35:50.4,5750443,37,1,01:18.5,213.499,1,Finished,hamilton,mercedes,4,Spanish Grand Prix,2019,catalunya,109,Sereno,1,1,0.01,15,5,4,5,1,0,5,2,3,1,3,1,4
+24306,1015,1,131,44,1,1,1,1,25,78,43:28.4,6208437,43,6,01:16.2,157.721,1,Finished,hamilton,mercedes,6,Monaco Grand Prix,2019,monaco,7,Nuvoloso con pioggia leggera,3,1,0.01,6,3,4,4,3,0,5,2,3,1,3,1,0
+24326,1016,1,131,44,2,1,1,1,25,70,29:07.1,5347084,41,4,01:14.8,209.851,1,Finished,hamilton,mercedes,7,Canadian Grand Prix,2019,villeneuve,13,Sereno,1,1,0.01,7,6,4,4,3,1,5,2,3,1,2,1,3
+24346,1017,1,131,44,1,1,1,1,25,53,24:31.2,5071198,28,2,01:32.8,226.717,1,Finished,hamilton,mercedes,34,French Grand Prix,2019,ricard,432,Sereno,1,1,0.01,18,3,4,4,3,0,5,2,3,1,1,1,0
+24370,1018,1,131,44,4,5,5,5,10,71,22.805,4944627,56,5,01:08.0,228.432,1,Finished,hamilton,mercedes,70,Austrian Grand Prix,2019,red_bull_ring,678,Sereno,1,1,0.01,13,4,4,4,3,1,5,2,3,1,1,1,0
+24386,1019,1,131,44,2,1,1,1,26,52,21:08.5,4868452,56,1,01:27.4,242.735,1,Finished,hamilton,mercedes,9,British Grand Prix,2019,silverstone,153,Parzialmente nuvoloso,2,1,0.01,7,4,4,4,3,0,5,2,3,1,3,1,0
+24414,1020,1,131,44,1,9,9,9,2,64,19.667,6290942,61,12,01:18.8,208.935,1,Finished,hamilton,mercedes,10,German Grand Prix,2019,hockenheimring,103,"Piovoso ad inizio gara, nuvoloso nel finale",3,1,0.01,13,2,4,4,3,0,5,2,3,1,3,1,0
+24426,1021,1,131,44,3,1,1,1,25,70,35:03.8,5703796,76,2,01:18.5,200.84,1,Finished,hamilton,mercedes,11,Hungarian Grand Prix,2019,hungaroring,264,Sereno,1,1,0.01,7,2,4,4,3,1,5,2,3,1,3,1,0
+24447,1022,1,131,44,3,2,2,2,18,44,0.981,5026691,4,3,01:46.6,236.577,1,Finished,hamilton,mercedes,13,Belgian Grand Prix,2019,spa,401,Parzialmente nuvoloso,2,1,0.01,20,8,4,9,1,0,5,2,3,1,3,1,2
+24468,1023,1,131,44,2,3,3,3,16,53,35.199,4561864,45,1,01:21.8,255.014,1,Finished,hamilton,mercedes,14,Italian Grand Prix,2019,monza,162,Parzialmente nuvoloso,2,1,0.01,7,2,4,4,3,0,5,2,3,1,2,1,2
+24489,1024,1,131,44,2,4,4,4,12,61,4.608,7118275,52,7,01:44.9,173.73,1,Finished,hamilton,mercedes,15,Singapore Grand Prix,2019,marina_bay,18,Sereno,1,1,0.01,6,2,4,4,3,1,5,2,3,1,1,1,3
+24506,1025,1,131,44,2,1,1,1,26,53,33:39.0,5618992,69,1,01:35.8,219.847,1,Finished,hamilton,mercedes,71,Russian Grand Prix,2019,sochi,2,Parzialmente nuvoloso,2,1,0.01,8,2,4,4,4,0,5,2,3,1,1,1,0
+24528,1026,1,131,44,4,3,3,3,16,52,13.858,4920613,71,1,01:31.0,229.77,1,Finished,hamilton,mercedes,22,Japanese Grand Prix,2019,suzuka,45,Sereno,1,1,0.01,1,6,4,4,4,0,5,2,3,1,2,1,0
+24546,1027,1,131,44,3,1,1,1,25,71,36:48.9,5808904,66,4,01:19.5,194.993,1,Finished,hamilton,mercedes,32,Mexican Grand Prix,2019,rodriguez,2227,Parzialmente nuvoloso,2,1,0.01,5,3,4,4,4,0,5,2,3,1,1,1,0
+24567,1028,1,131,44,5,2,2,2,18,56,4.148,5639801,65,7,01:38.4,201.6,1,Finished,hamilton,mercedes,69,United States Grand Prix,2019,americas,161,Sereno,1,1,0.01,7,2,4,4,4,0,5,2,3,1,1,1,0
+24592,1029,1,131,44,3,7,7,7,6,71,11.139,5605817,62,3,01:11.1,218.232,1,Finished,hamilton,mercedes,18,Brazilian Grand Prix,2019,interlagos,785,Sereno,1,1,0.01,10,2,4,4,4,1,5,2,3,1,3,1,4
+24606,1030,1,131,44,1,1,1,1,26,55,34:05.7,5645715,50,1,01:39.3,201.387,1,Finished,hamilton,mercedes,24,Abu Dhabi Grand Prix,2019,yas_marina,3,Sereno,1,1,0.01,10,3,4,4,3,1,5,2,3,1,1,1,0
+24629,1031,1,131,44,5,4,4,4,12,71,5.689,5461428,41,3,01:07.7,229.572,1,Finished,hamilton,mercedes,70,Austrian Grand Prix,2020,red_bull_ring,678,Sereno,1,1,0.01,12,3,4,4,3,1,5,2,3,1,1,1,0
+24646,1032,1,131,44,1,1,1,1,25,71,22:50.7,4970683,49,3,01:06.7,232.989,1,Finished,hamilton,mercedes,70,Styrian Grand Prix,2020,red_bull_ring,678,Parzialmente nuvoloso,2,1,0.01,11,4,4,4,3,1,5,2,3,1,1,1,0
+24666,1033,1,131,44,1,1,1,1,26,70,36:12.5,5772473,44,1,01:16.6,205.823,1,Finished,hamilton,mercedes,11,Hungarian Grand Prix,2020,hungaroring,264,Parzialmente nuvoloso,2,1,0.01,9,4,4,4,3,1,5,2,3,1,3,1,0
+24686,1034,1,131,44,1,1,1,1,25,52,28:01.3,5281283,16,3,01:29.2,237.652,1,Finished,hamilton,mercedes,9,British Grand Prix,2020,silverstone,153,Parzialmente nuvoloso,2,1,0.01,18,5,4,7,1,0,5,2,3,1,3,1,0
+24707,1035,1,131,44,2,2,2,2,19,52,11.326,4793319,65,1,01:28.5,239.766,1,Finished,hamilton,mercedes,9,70th Anniversary Grand Prix,2020,silverstone,153,Sereno,1,1,0.01,13,2,4,6,4,0,5,2,3,1,3,1,0
+24726,1036,1,131,44,1,1,1,1,25,66,31:45.3,5505279,42,2,01:19.8,209.942,1,Finished,hamilton,mercedes,4,Spanish Grand Prix,2020,catalunya,109,Parzialmente nuvoloso,2,1,0.01,8,4,4,6,4,0,5,2,3,1,3,1,4
+24746,1037,1,131,44,1,1,1,1,25,44,24:08.8,5048761,0,2,01:47.8,233.99,1,Finished,hamilton,mercedes,13,Belgian Grand Prix,2020,spa,401,Parzialmente nuvoloso,2,1,0.01,0,4,4,6,4,0,5,2,3,1,3,1,2
+24772,1038,1,131,44,1,7,7,7,7,53,17.245,6443301,21,1,01:22.7,252.033,1,Finished,hamilton,mercedes,14,Italian Grand Prix,2020,monza,162,Sereno,1,1,0.01,8,2,4,6,6,0,5,2,3,1,2,1,2
+24786,1039,1,131,44,1,1,1,1,26,59,19:35.1,8375060,39,1,01:18.8,239.518,1,Finished,hamilton,mercedes,76,Tuscan Grand Prix,2020,mugello,255,Sereno,1,1,0.01,11,8,4,6,6,0,5,2,3,1,1,1,0
+24808,1040,1,131,44,1,3,3,3,15,53,22.729,5663093,0,7,01:38.1,214.66,1,Finished,hamilton,mercedes,71,Russian Grand Prix,2020,sochi,2,Sereno,1,1,0.01,0,4,4,6,6,0,5,2,3,1,1,1,0
+24826,1041,1,131,44,2,1,1,1,25,60,35:49.6,5749641,52,2,01:28.1,210.253,1,Finished,hamilton,mercedes,20,Eifel Grand Prix,2020,nurburgring,578,Parzialmente nuvoloso,2,1,0.01,11,2,4,2,3,0,5,2,3,1,3,1,0
+24846,1042,1,131,44,1,1,1,1,26,66,29:56.8,5396828,50,1,01:18.7,212.708,1,Finished,hamilton,mercedes,75,Portuguese Grand Prix,2020,portimao,108,Nuvoloso,2,1,0.01,7,4,4,2,3,0,5,2,3,1,1,1,0
+24866,1043,1,131,44,2,1,1,1,26,63,28:32.4,5312430,53,1,01:15.5,234.121,1,Finished,hamilton,mercedes,21,Emilia Romagna Grand Prix,2020,imola,37,Parzialmente nuvoloso,2,1,0.01,3,2,4,2,3,0,5,2,3,1,3,1,0
+24886,1044,1,131,44,6,1,1,1,25,58,42:19.3,6139313,58,6,01:39.4,193.302,1,Finished,hamilton,mercedes,5,Turkish Grand Prix,2020,istanbul,130,"Piovoso ad inizio gara, umido successivamente",3,1,0.01,11,2,4,4,1,0,5,2,3,1,2,1,0
+24906,1045,1,131,44,1,1,1,1,25,57,59:47.5,10787515,52,3,01:32.9,209.803,1,Finished,hamilton,mercedes,3,Bahrain Grand Prix,2020,bahrain,7,Sereno,1,1,0.01,11,2,4,4,3,0,5,2,3,1,2,1,0
+24948,1047,1,131,44,3,3,3,3,15,55,18.415,5807060,50,5,01:41.4,197.144,1,Finished,hamilton,mercedes,24,Abu Dhabi Grand Prix,2020,yas_marina,3,Sereno,1,1,0.01,5,9,4,4,3,1,5,2,3,1,1,1,0
+25346,1051,1,131,44,1,1,1,1,25,57,24:28.5,5068471,39,2,01:25.1,227.633,1,Finished,hamilton,mercedes,78,Qatar Grand Prix,2021,losail,,Sereno,1,1,0.01,1,4,4,4,3,0,5,2,3,1,1,1,0
+24966,1052,1,131,44,2,1,1,1,25,56,32:03.9,5523897,31,4,01:34.0,207.235,1,Finished,hamilton,mercedes,3,Bahrain Grand Prix,2021,bahrain,7,Sereno,1,1,0.01,13,3,4,4,7,0,5,2,3,1,2,1,0
+24987,1053,1,131,44,1,2,2,2,19,63,22,7376598,44,1,01:16.7,230.403,1,Finished,hamilton,mercedes,21,Emilia Romagna Grand Prix,2021,imola,37,"Piovoso a inizio gara, umido successivamente",3,1,0.01,4,3,4,4,3,0,5,2,3,1,3,1,0
+25006,1054,1,131,44,2,1,1,1,25,66,34:31.4,5671421,41,4,01:20.9,206.971,1,Finished,hamilton,mercedes,75,Portuguese Grand Prix,2021,portimao,108,Poco nuvoloso,1,1,0.01,7,4,4,4,3,0,5,2,3,1,1,1,0
+25026,1055,1,131,44,1,1,1,1,25,66,33:07.7,5587680,46,5,01:20.7,208.64,1,Finished,hamilton,mercedes,4,Spanish Grand Prix,2021,catalunya,109,Nuvoloso,2,1,0.01,19,9,4,9,4,0,5,2,3,1,3,1,4
+25052,1056,1,131,44,7,7,7,7,7,78,+1:08.231,6005051,67,1,01:12.9,164.769,1,Finished,hamilton,mercedes,6,Monaco Grand Prix,2021,monaco,7,Sereno,1,1,0.01,8,3,4,9,4,0,5,2,3,1,3,1,0
+25080,1057,1,131,44,2,15,15,15,0,51,17.668,8034078,63,3,01:44.8,206.27,1,Finished,hamilton,mercedes,73,Azerbaijan Grand Prix,2021,BAK,-7,Sereno,1,1,0.01,7,3,4,5,3,0,5,2,3,1,1,1,0
+25107,1058,1,131,44,2,2,2,2,19,71,35.743,4974668,53,1,01:07.1,231.811,1,Finished,hamilton,mercedes,70,Styrian Grand Prix,2021,red_bull_ring,678,Parzialmente nuvoloso,2,1,0.01,10,8,4,5,3,1,5,2,3,1,1,1,0
+25087,1059,1,131,44,2,2,2,2,18,53,2.904,5248674,50,5,01:37.4,215.903,1,Finished,hamilton,mercedes,34,French Grand Prix,2021,ricard,432,Parzialmente nuvoloso,2,1,0.01,12,3,4,4,2,0,5,2,3,1,1,1,0
+25129,1060,1,131,44,4,4,4,4,12,71,46.452,5080995,53,3,01:08.1,228.177,1,Finished,hamilton,mercedes,70,Austrian Grand Prix,2021,red_bull_ring,678,Parzialmente nuvoloso,2,1,0.01,12,2,4,4,2,1,5,2,3,1,1,1,0
+25146,1061,1,131,44,2,1,1,1,27,52,58:23.3,7103284,58,2,01:29.7,236.43,1,Finished,hamilton,mercedes,9,British Grand Prix,2021,silverstone,153,Sereno,1,1,0.01,4,4,4,4,2,0,5,2,3,1,3,1,0
+25167,1062,1,131,44,1,2,2,2,18,70,2.736,7485935,59,2,01:18.7,200.363,1,Finished,hamilton,mercedes,11,Hungarian Grand Prix,2021,hungaroring,264,"Piovoso a inizio gara, asciutto successivamente",3,1,0.01,7,12,4,5,0,1,5,2,3,1,3,1,0
+25188,1063,1,131,44,3,3,3,3,7.5,1,2.601,209672,40,0,\N,\N,1,Finished,hamilton,mercedes,13,Belgian Grand Prix,2021,spa,401,Piovoso,3,1,0.01,17,3,4,5,4,0,5,2,3,1,3,1,2
+25207,1064,1,131,44,2,2,2,2,19,72,20.932,5426327,65,1,01:11.1,215.654,1,Finished,hamilton,mercedes,39,Dutch Grand Prix,2021,zandvoort,6,Sereno,1,1,0.01,3,3,4,4,0,0,5,2,3,1,1,1,0
+25242,1065,1,131,44,4,,R,17,0,25,\N,,55,14,01:25.9,242.864,4,Collision,hamilton,mercedes,14,Italian Grand Prix,2021,monza,162,Sereno,1,1,0.01,7,6,4,4,0,0,5,2,3,1,2,1,2
+25246,1066,1,131,44,4,1,1,1,25,53,30:41.0,5441001,63,2,01:37.6,215.76,1,Finished,hamilton,mercedes,71,Russian Grand Prix,2021,sochi,2,Nuvoloso con pioggia nel finale,3,1,0.01,8,4,4,2,6,0,5,2,3,1,1,1,0
+25270,1067,1,131,44,11,5,5,5,10,58,41.812,5505915,63,10,01:32.8,207.16,1,Finished,hamilton,mercedes,5,Turkish Grand Prix,2021,istanbul,130,Nuvoloso e piovoso,3,1,0.01,3,4,4,2,6,0,5,2,3,1,2,1,0
+25287,1069,1,131,44,2,2,2,2,19,56,1.333,5677885,58,1,01:38.5,201.521,1,Finished,hamilton,mercedes,69,United States Grand Prix,2021,americas,161,Sereno,1,1,0.01,1,4,4,4,0,0,5,2,3,1,1,1,0
+25307,1070,1,131,44,2,2,2,2,18,71,16.555,5935641,50,4,01:19.8,194.116,1,Finished,hamilton,mercedes,32,Mexico City Grand Prix,2021,rodriguez,2227,Sereno,1,1,0.01,3,2,4,4,0,0,5,2,3,1,1,1,0
+25326,1071,1,131,44,10,1,1,1,25,71,32:22.9,5542851,48,2,01:12.0,215.503,1,Finished,hamilton,mercedes,18,São Paulo Grand Prix,2021,interlagos,785,not found,0,1,0.01,6,2,4,6,2,1,5,2,3,1,3,1,4
+25366,1072,1,131,44,1,1,1,1,26,50,06:15.1,7575118,51,1,01:30.7,244.962,1,Finished,hamilton,mercedes,77,Saudi Arabian Grand Prix,2021,jeddah,15,Sereno,1,1,0.01,4,3,4,6,0,0,5,2,3,1,1,1,0
+25387,1073,1,131,44,2,2,2,2,18,58,2.256,5419601,49,3,01:26.6,219.495,1,Finished,hamilton,mercedes,24,Abu Dhabi Grand Prix,2021,yas_marina,3,Sereno,1,1,0.01,8,5,4,4,0,1,5,2,3,1,1,1,0
