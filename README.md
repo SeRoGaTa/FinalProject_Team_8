@@ -244,32 +244,35 @@ For the exercise, 4 different types of model were run, logistic regressions, Sup
 
 Logistic regression predicts binary outcomes and evaluates the probability of an occurrence. The model would take features into account and decide whether a driver can or not win meaning that there are only two possible outcomes.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen28.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen28.png" width="350">
 
 **Support Vector Machines**
 
 Like logistic regression, Support vector machine (SVM) is another supervised learning model that can be uses to classify if a sample is categorized into one of two possibilities (win or lose).
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen29.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen29.png" width="350">
 
 **Random Forest Classifier**
 
 Applying a Random forest algorithm, we can rank the importance of input variables in order to remove some variables that could be affecting the model. 
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen30.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen30.png" width="350">
 
 **Gradient Boosting Classifier**
 
 Gradient boosting is a type of machine learning boosting. It relies on the intuition that the best possible next model, when combined with previous models, minimizes the overall prediction error. The key idea is to set the target outcomes for this next model in order to minimize the error.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen31.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen31.png" width="350">
 
 To compare the performance of all the models, a comparative table was created, it is observed that logistic regression model is the one that presents the highest precision and the highest result in the F1 Score.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen32.png" width="450">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen32.png" width="450">
 
-Because the results are low, even for the logistic regression model, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.27 and an accuracy of 0.95.
+Because the results are low, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.10 and an accuracy of 0.95.
 
+In order to improve the model quality, the Random Forest Classifier and Gradient Boosting Classifier Regression models, both with the best F1-Score result were selected for adjustments. First calculating the feature importance in the Random Forest model 'rank_yrs_exp_driver' and 'constructor_failures_driver_constructor' the two variables with less importance were removed. Additionally, considering the imbalance in the classification modeling, the SMOTEENN technique is applied to oversample the minority class and subsampling the majority class in order to balance the data set.
+
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen33.png" width="450">
 
 ## Visual representation and dashboards
 
