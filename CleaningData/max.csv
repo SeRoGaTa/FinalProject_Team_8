@@ -1,0 +1,60 @@
+resultid,raceid,driverid,constructorid,number,grid,position,positiontext,positionorder,points,laps,time,milliseconds,fastestlap,rank,fastestlaptime,fastestlapspeed,statusid,status,driverref,constructorref,circuitid,name,year,circuitref,alt,weather,weather_type,total_points_driver,average_col_acc,rankfast,sumpits,points_season,points_circuit,constructor_failures,constructor_failures_driver,constructor_failures_driver_constructor,rank_yrs_exp_driver,rank_exp_driver,rank_wins_driver,rank_run_circuit,rank_quali_wins_driver,driver_failures
+24205,1010,830,9,33,4,3,3,3,15,58,22.52,5149845,57,3,01:26.3,221.327,1,Finished,max_verstappen,red_bull,1,Australian Grand Prix,2019,albert_park,10,Sereno,1,2,0.09,2,2,1,1,7,1,3,5,10,5,9,6,0
+24226,1011,830,9,33,5,4,4,4,12,57,6.408,5667703,36,9,01:35.3,204.417,1,Finished,max_verstappen,red_bull,3,Bahrain Grand Prix,2019,bahrain,7,Sereno,1,2,0.09,2,4,1,1,0,0,3,5,10,5,6,6,2
+24246,1012,830,9,33,5,4,4,4,12,56,27.627,5553977,47,6,01:36.1,204.108,1,Finished,max_verstappen,red_bull,17,Chinese Grand Prix,2019,shanghai,5,Nuvoloso,2,2,0.09,5,4,1,1,2,0,3,5,10,5,8,6,0
+24266,1013,830,9,33,4,4,4,4,12,51,17.493,5530435,48,5,01:44.8,206.221,1,Finished,max_verstappen,red_bull,73,Azerbaijan Grand Prix,2019,BAK,-7,Sereno,1,2,0.09,3,2,1,2,0,0,3,5,10,5,1,6,1
+24285,1014,830,9,33,4,3,3,3,15,66,7.679,5758122,54,3,01:19.8,210.081,1,Finished,max_verstappen,red_bull,4,Spanish Grand Prix,2019,catalunya,109,Sereno,1,2,0.09,1,4,1,1,9,0,3,5,10,5,8,6,4
+24309,1015,830,9,33,3,4,4,4,12,78,5.537,6213974,9,7,01:16.2,157.593,1,Finished,max_verstappen,red_bull,6,Monaco Grand Prix,2019,monaco,7,Nuvoloso con pioggia leggera,3,2,0.09,6,3,1,2,11,0,3,5,10,5,8,6,4
+24330,1016,830,9,33,9,5,5,5,10,70,57.655,5404739,62,3,01:14.8,209.98,1,Finished,max_verstappen,red_bull,7,Canadian Grand Prix,2019,villeneuve,13,Sereno,1,2,0.09,4,3,1,1,12,1,3,5,10,5,7,6,0
+24349,1017,830,9,33,4,4,4,4,12,53,34.905,5106103,53,5,01:34.2,223.351,1,Finished,max_verstappen,red_bull,34,French Grand Prix,2019,ricard,432,Sereno,1,2,0.09,2,2,1,1,0,0,3,5,10,5,1,6,0
+24366,1018,830,9,33,2,1,1,1,26,71,22:01.8,4921822,69,1,01:07.5,230.378,1,Finished,max_verstappen,red_bull,70,Austrian Grand Prix,2019,red_bull_ring,678,Sereno,1,2,0.09,5,2,1,1,3,1,3,5,10,5,2,6,2
+24390,1019,830,9,33,4,5,5,5,10,52,39.458,4907910,52,4,01:29.3,237.561,1,Finished,max_verstappen,red_bull,9,British Grand Prix,2019,silverstone,153,Parzialmente nuvoloso,2,2,0.09,1,3,1,1,12,0,3,5,10,5,8,6,2
+24406,1020,830,9,33,2,1,1,1,26,64,44:31.3,6271275,64,1,01:16.6,214.839,1,Finished,max_verstappen,red_bull,10,German Grand Prix,2019,hockenheimring,103,"Piovoso ad inizio gara, nuvoloso nel finale",3,2,0.09,12,9,1,1,0,0,3,5,10,5,7,6,0
+24427,1021,830,9,33,1,2,2,2,19,70,17.796,5721592,60,1,01:17.1,204.552,1,Finished,max_verstappen,red_bull,11,Hungarian Grand Prix,2019,hungaroring,264,Sereno,1,2,0.09,2,4,1,1,8,1,3,5,10,5,6,6,0
+24465,1022,830,9,33,5,,R,20,0,0,\N,,24,0,\N,\N,3,Accident,max_verstappen,red_bull,13,Belgian Grand Prix,2019,spa,401,Parzialmente nuvoloso,2,2,0.09,3,2,1,1,12,0,3,5,10,5,7,6,4
+24473,1023,830,9,33,19,8,8,8,4,53,+1:14.492,4601157,51,5,01:23.1,250.83,1,Finished,max_verstappen,red_bull,14,Italian Grand Prix,2019,monza,162,Parzialmente nuvoloso,2,2,0.09,1,3,1,1,14,0,3,5,10,5,5,6,4
+24488,1024,830,9,33,4,3,3,3,15,61,3.821,7117488,58,8,01:45.2,173.298,1,Finished,max_verstappen,red_bull,15,Singapore Grand Prix,2019,marina_bay,18,Sereno,1,2,0.09,7,2,1,2,0,1,3,5,10,5,6,6,3
+24509,1025,830,9,33,9,4,4,4,12,53,14.21,5633202,51,5,01:36.9,217.18,1,Finished,max_verstappen,red_bull,71,Russian Grand Prix,2019,sochi,2,Parzialmente nuvoloso,2,2,0.09,1,2,1,1,0,0,3,5,10,5,2,6,0
+24543,1026,830,9,33,5,,R,18,0,14,\N,,45,20,01:37.2,214.965,23,Brakes,max_verstappen,red_bull,22,Japanese Grand Prix,2019,suzuka,45,Sereno,1,2,0.09,1,4,1,1,9,0,3,5,10,5,5,6,0
+24551,1027,830,9,33,4,6,6,6,8,71,+1:08.807,5877711,66,11,01:20.4,192.702,1,Finished,max_verstappen,red_bull,32,Mexican Grand Prix,2019,rodriguez,2227,Parzialmente nuvoloso,2,2,0.09,4,2,1,3,0,0,3,5,10,5,1,6,0
+24568,1028,830,9,33,3,3,3,3,15,56,5.002,5640655,26,5,01:38.2,202.077,1,Finished,max_verstappen,red_bull,69,United States Grand Prix,2019,americas,161,Sereno,1,2,0.09,7,3,1,1,0,0,3,5,10,5,3,6,0
+24586,1029,830,9,33,1,1,1,1,25,71,33:14.7,5594678,46,2,01:10.9,218.909,1,Finished,max_verstappen,red_bull,18,Brazilian Grand Prix,2019,interlagos,785,Sereno,1,2,0.09,3,5,1,2,8,1,3,5,10,5,7,6,0
+24607,1030,830,9,33,2,2,2,2,18,55,16.772,5662487,53,5,01:41.1,197.731,1,Finished,max_verstappen,red_bull,24,Abu Dhabi Grand Prix,2019,yas_marina,3,Sereno,1,2,0.09,1,2,1,1,0,1,3,5,10,5,4,6,0
+24645,1031,830,9,33,2,,R,20,0,11,\N,,67,15,01:09.4,224.146,40,Electronics,max_verstappen,red_bull,70,Austrian Grand Prix,2020,red_bull_ring,678,Sereno,1,2,0.09,3,4,1,1,3,1,3,5,10,5,2,6,2
+24648,1032,830,9,33,2,3,3,3,15,71,33.698,5004381,68,2,01:06.1,235.01,1,Finished,max_verstappen,red_bull,70,Styrian Grand Prix,2020,red_bull_ring,678,Parzialmente nuvoloso,2,2,0.09,3,2,1,1,3,1,3,5,10,5,2,6,2
+24667,1033,830,9,33,7,2,2,2,18,70,8.702,5781175,70,4,01:19.2,199.176,1,Finished,max_verstappen,red_bull,11,Hungarian Grand Prix,2020,hungaroring,264,Parzialmente nuvoloso,2,2,0.09,1,6,1,1,8,1,3,5,10,5,6,6,0
+24687,1034,830,9,33,3,2,2,2,19,52,5.856,5287139,45,1,01:27.1,243.494,1,Finished,max_verstappen,red_bull,9,British Grand Prix,2020,silverstone,153,Parzialmente nuvoloso,2,2,0.09,3,3,1,1,12,0,3,5,10,5,8,6,2
+24706,1035,830,9,33,4,1,1,1,25,52,19:42.0,4781993,43,2,01:29.5,237.049,1,Finished,max_verstappen,red_bull,9,70th Anniversary Grand Prix,2020,silverstone,153,Sereno,1,2,0.09,1,4,1,1,12,0,3,5,10,5,8,6,2
+24727,1036,830,9,33,3,2,2,2,18,66,24.177,5529456,63,4,01:21.5,205.677,1,Finished,max_verstappen,red_bull,4,Spanish Grand Prix,2020,catalunya,109,Parzialmente nuvoloso,2,2,0.09,2,5,1,1,9,0,3,5,10,5,8,6,4
+24748,1037,830,9,33,3,3,3,3,15,44,15.455,5064216,28,8,01:48.3,232.809,1,Finished,max_verstappen,red_bull,13,Belgian Grand Prix,2020,spa,401,Parzialmente nuvoloso,2,2,0.09,2,2,1,1,12,0,3,5,10,5,7,6,4
+24782,1038,830,9,33,5,,R,17,0,30,\N,,34,17,01:25.5,243.804,131,Power Unit,max_verstappen,red_bull,14,Italian Grand Prix,2020,monza,162,Sereno,1,2,0.09,1,5,1,1,14,0,3,5,10,5,5,6,4
+24804,1039,830,9,33,3,,R,19,0,0,\N,,58,0,\N,\N,4,Collision,max_verstappen,red_bull,76,Tuscan Grand Prix,2020,mugello,255,Sereno,1,2,0.09,1,10,1,1,0,0,3,5,10,5,1,6,1
+24807,1040,830,9,33,2,2,2,2,18,53,7.729,5648093,48,3,01:37.3,216.298,1,Finished,max_verstappen,red_bull,71,Russian Grand Prix,2020,sochi,2,Sereno,1,2,0.09,7,2,1,1,0,0,3,5,10,5,2,6,0
+24827,1041,830,9,33,3,2,2,2,19,60,4.47,5754111,58,1,01:28.1,210.267,1,Finished,max_verstappen,red_bull,20,Eifel Grand Prix,2020,nurburgring,578,Parzialmente nuvoloso,2,2,0.09,2,3,1,1,11,0,3,5,10,5,7,6,0
+24848,1042,830,9,33,3,3,3,3,15,66,34.508,5431336,63,4,01:19.9,209.767,1,Finished,max_verstappen,red_bull,75,Portuguese Grand Prix,2020,portimao,108,Nuvoloso,2,2,0.09,1,2,1,1,0,0,3,5,10,5,1,6,0
+24882,1043,830,9,33,3,,R,17,0,50,\N,,63,5,01:17.6,227.628,29,Puncture,max_verstappen,red_bull,21,Emilia Romagna Grand Prix,2020,imola,37,Parzialmente nuvoloso,2,2,0.09,1,4,1,1,0,0,3,5,10,5,3,6,0
+24891,1044,830,9,33,2,6,6,6,8,58,44.873,6184186,56,3,01:38.4,195.231,1,Finished,max_verstappen,red_bull,5,Turkish Grand Prix,2020,istanbul,130,"Piovoso ad inizio gara, umido successivamente",3,2,0.09,6,3,1,1,0,0,3,5,10,5,5,6,0
+24907,1045,830,9,33,3,2,2,2,19,57,1.254,10788769,38,1,01:32.0,211.741,1,Finished,max_verstappen,red_bull,3,Bahrain Grand Prix,2020,bahrain,7,Sereno,1,2,0.09,3,7,1,1,0,0,3,5,10,5,6,6,2
+24946,1047,830,9,33,1,1,1,1,25,55,36:28.6,5788645,37,2,01:41.0,198.046,1,Finished,max_verstappen,red_bull,24,Abu Dhabi Grand Prix,2020,yas_marina,3,Sereno,1,2,0.09,5,2,1,1,0,1,3,5,10,5,4,6,0
+25347,1051,830,9,33,7,2,2,2,19,57,25.743,5094214,50,1,01:23.2,232.799,1,Finished,max_verstappen,red_bull,78,Qatar Grand Prix,2021,losail,,Sereno,1,2,0.09,2,3,1,2,0,0,3,5,10,5,1,6,0
+24967,1052,830,9,33,1,2,2,2,18,56,0.745,5524642,44,2,01:33.2,208.984,1,Finished,max_verstappen,red_bull,3,Bahrain Grand Prix,2021,bahrain,7,Sereno,1,2,0.09,4,5,1,1,0,0,3,5,10,5,6,6,2
+24986,1053,830,9,33,3,1,1,1,25,63,02:34.6,7354598,60,2,01:17.5,227.96,1,Finished,max_verstappen,red_bull,21,Emilia Romagna Grand Prix,2021,imola,37,"Piovoso a inizio gara, umido successivamente",3,2,0.09,1,5,1,1,0,0,3,5,10,5,3,6,0
+25007,1054,830,9,33,3,2,2,2,18,66,29.148,5700569,47,3,01:20.7,207.581,1,Finished,max_verstappen,red_bull,75,Portuguese Grand Prix,2021,portimao,108,Poco nuvoloso,1,2,0.09,4,7,1,1,0,0,3,5,10,5,1,6,0
+25027,1055,830,9,33,2,2,2,2,19,66,15.841,5603521,54,1,01:18.1,215.357,1,Finished,max_verstappen,red_bull,4,Spanish Grand Prix,2021,catalunya,109,Nuvoloso,2,2,0.09,5,4,1,1,9,0,3,5,10,5,8,6,4
+25046,1056,830,9,33,2,1,1,1,25,78,38:56.8,5936820,69,6,01:14.6,160.929,1,Finished,max_verstappen,red_bull,6,Monaco Grand Prix,2021,monaco,7,Sereno,1,2,0.09,1,9,1,2,11,0,3,5,10,5,8,6,4
+25083,1057,830,9,33,3,,R,18,0,45,\N,,43,1,01:44.5,206.839,3,Accident,max_verstappen,red_bull,73,Azerbaijan Grand Prix,2021,BAK,-7,Sereno,1,2,0.09,3,6,1,2,0,0,3,5,10,5,1,6,1
+25106,1058,830,9,33,1,1,1,1,25,71,22:18.9,4938925,71,3,01:08.0,228.542,1,Finished,max_verstappen,red_bull,70,Styrian Grand Prix,2021,red_bull_ring,678,Parzialmente nuvoloso,2,2,0.09,1,3,1,1,3,1,3,5,10,5,2,6,2
+25086,1059,830,9,33,1,1,1,1,26,53,27:25.8,5245770,44,1,01:36.4,218.156,1,Finished,max_verstappen,red_bull,34,French Grand Prix,2021,ricard,432,Parzialmente nuvoloso,2,2,0.09,5,2,1,1,0,0,3,5,10,5,1,6,0
+25126,1060,830,9,33,1,1,1,1,26,71,23:54.5,5034543,55,1,01:06.2,234.815,1,Finished,max_verstappen,red_bull,70,Austrian Grand Prix,2021,red_bull_ring,678,Parzialmente nuvoloso,2,2,0.09,3,3,1,1,3,1,3,5,10,5,2,6,2
+25165,1061,830,9,33,1,,R,20,3,0,\N,,45,0,\N,\N,4,Collision,max_verstappen,red_bull,9,British Grand Prix,2021,silverstone,153,Sereno,1,2,0.09,2,4,1,1,12,0,3,5,10,5,8,6,2
+25174,1062,830,9,33,3,9,9,9,2,70,+1:20.244,7563443,49,4,192.074,194.843,1,Finished,max_verstappen,red_bull,11,Hungarian Grand Prix,2021,hungaroring,264,"Piovoso a inizio gara, asciutto successivamente",3,2,0.09,2,11,1,1,8,1,3,5,10,5,6,6,0
+25186,1063,830,9,33,1,1,1,1,12.5,1,03:27.1,207071,0,0,\N,\N,1,Finished,max_verstappen,red_bull,13,Belgian Grand Prix,2021,spa,401,Piovoso,3,2,0.09,0,4,1,1,12,0,3,5,10,5,7,6,4
+25206,1064,830,9,33,1,1,1,1,25,72,30:05.4,5405395,72,3,01:13.3,209.244,1,Finished,max_verstappen,red_bull,39,Dutch Grand Prix,2021,zandvoort,6,Sereno,1,2,0.09,1,5,1,1,0,0,3,5,10,5,1,6,0
+25243,1065,830,9,33,1,,R,18,2,25,\N,,3,5,01:25.2,244.852,4,Collision,max_verstappen,red_bull,14,Italian Grand Prix,2021,monza,162,Sereno,1,2,0.09,14,2,1,1,14,0,3,5,10,5,5,6,4
+25247,1066,830,9,33,20,2,2,2,18,53,53.271,5494272,43,5,01:38.4,213.959,1,Finished,max_verstappen,red_bull,71,Russian Grand Prix,2021,sochi,2,Nuvoloso con pioggia nel finale,3,2,0.09,2,4,1,1,0,0,3,5,10,5,2,6,0
+25267,1067,830,9,33,2,2,2,2,18,58,14.584,5478687,52,9,01:32.8,207.169,1,Finished,max_verstappen,red_bull,5,Turkish Grand Prix,2021,istanbul,130,Nuvoloso e piovoso,3,2,0.09,10,2,1,1,0,0,3,5,10,5,5,6,0
+25286,1069,830,9,33,1,1,1,1,25,56,34:36.6,5676552,41,2,01:39.1,200.278,1,Finished,max_verstappen,red_bull,69,United States Grand Prix,2021,americas,161,Sereno,1,2,0.09,1,4,1,1,0,0,3,5,10,5,3,6,0
+25306,1070,830,9,33,3,1,1,1,25,71,38:39.1,5919086,66,2,01:19.0,196.134,1,Finished,max_verstappen,red_bull,32,Mexico City Grand Prix,2021,rodriguez,2227,Sereno,1,2,0.09,4,5,1,3,0,0,3,5,10,5,1,6,0
+25327,1071,830,9,33,2,2,2,2,20,71,10.496,5553347,46,3,01:12.5,214.005,1,Finished,max_verstappen,red_bull,18,São Paulo Grand Prix,2021,interlagos,785,not found,0,2,0.09,2,8,1,2,8,1,3,5,10,5,7,6,0
+25367,1072,830,9,33,3,2,2,2,18,50,11.825,7586943,47,3,01:31.5,242.943,1,Finished,max_verstappen,red_bull,77,Saudi Arabian Grand Prix,2021,jeddah,15,Sereno,1,2,0.09,1,6,1,1,0,0,3,5,10,5,1,6,0
+25386,1073,830,9,33,1,1,1,1,26,58,30:17.3,5417345,43,1,01:26.1,220.8,1,Finished,max_verstappen,red_bull,24,Abu Dhabi Grand Prix,2021,yas_marina,3,Sereno,1,2,0.09,3,2,1,1,0,1,3,5,10,5,4,6,0

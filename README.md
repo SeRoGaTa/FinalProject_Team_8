@@ -1,4 +1,4 @@
-# FinalProject_Team_8
+
 # Formula 1
 The selected topic for our project is "Formula 1 history through data analysis", the purpose of this project is to show the relevance of data analysis through this sport, provide a better understanding of the sport to existing fans and provide an introduction through hard data to new fans.
 
@@ -229,7 +229,6 @@ To compare the performance of all the models, a comparative table was created, i
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen32.png" width="450">
 
 Because the results are low, even for the logistic regression model, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.27 and an accuracy of 0.95.
-
 
 
 ## Visual representation and dashboards

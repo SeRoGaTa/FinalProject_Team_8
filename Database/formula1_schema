@@ -1,0 +1,175 @@
+-- Formula 1 project schema 
+-- Here we create all the 13 tables squemas that will be loaded from csv and stored in AWS RDS instance.
+
+CREATE TABLE circuits (
+	circuitId int PRIMARY KEY NOT NULL,
+	circuitRef varchar(255),
+	name varchar(255),
+	location varchar(255),
+	country varchar(255),
+	lat float, 
+	lng float, 
+	alt int,
+	url varchar(255)
+);
+
+CREATE TABLE drivers (
+	driverId int PRIMARY KEY NOT NULL,	
+	driverRef varchar(255),
+	number int,
+	code varchar(3),
+	forename varchar(255),
+	surname varchar(255),
+	dob date,
+	nationality varchar(255),
+	url varchar(255)
+);
+
+CREATE TABLE constructors (
+	constructorId int PRIMARY KEY NOT NULL,
+	constructorRef varchar(255),
+	name varchar(255),
+	nationality varchar(255),
+	url varchar 
+);
+
+CREATE TABLE seasons (
+	year int PRIMARY KEY NOT NULL,
+	url varchar(255)
+);
+
+CREATE TABLE races (
+	raceId int PRIMARY KEY NOT NULL,
+	year int REFERENCES seasons(year),
+	round int,
+	circuitId int REFERENCES circuits(circuitId),	
+	name varchar(255),
+	date date,
+	time time,
+	url varchar(255)
+);
+
+CREATE TABLE pit_stops (
+	raceId int REFERENCES races(raceId),
+	driverId int REFERENCES drivers(driverId),
+	stop int,
+	lap int,
+	time time,
+	duration varchar(255),
+	milliseconds int
+);
+
+CREATE TABLE lap_times (
+	raceId int REFERENCES races(raceId), 
+	driverId int REFERENCES drivers(driverId),
+	lap int, 
+	position int,
+	time varchar(255),
+	milliseconds int
+);
+
+CREATE TABLE qualifying (
+	qualifyId int PRIMARY KEY NOT NULL,
+	raceId int REFERENCES races (raceId),
+	driverId int  REFERENCES drivers(driverId),
+	constructorId int REFERENCES constructors(constructorId),
+	number int,
+	position int,
+	q1 varchar(255),
+	q2 varchar(255),
+	q3 varchar(255)
+);
+
+CREATE TABLE status (
+	statusId int PRIMARY KEY NOT NULL,
+	status varchar(255)
+);
+
+CREATE TABLE results (
+	resultId int PRIMARY KEY NOT NULL,
+	raceId int REFERENCES races(raceId),
+	driverId int  REFERENCES drivers(driverId),
+	constructorId int REFERENCES constructors(constructorId),	
+	number int,
+	grid int,
+	position int,	
+	positionText varchar(255),
+	positionOrder int,
+	points float,
+	laps  int,
+	time varchar(255),
+	milliseconds int,
+	fastestLap int,
+	rank int,
+	fastestLapTime varchar(255),
+	fastestLapSpeed varchar(255),
+	statusId int REFERENCES status(statusId)
+);
+
+CREATE TABLE driver_standings (
+	driverStandingsId int PRIMARY KEY NOT NULL,
+	raceId int REFERENCES races(raceId),
+	driverId int REFERENCES drivers(driverId),
+	points float,
+	position int,
+	positionText varchar(255),
+	wins int
+);
+
+CREATE TABLE constructor_standings (
+	constructorStandingsId int PRIMARY KEY NOT NULL,
+	raceId int  REFERENCES races(raceId),
+	constructorId int REFERENCES constructors(constructorId),
+	points float, 
+	position int, 
+	positionText varchar(255),
+	wins int 
+);
+
+CREATE TABLE constructor_results (
+	constructorResultsId int PRIMARY KEY NOT NULL,
+	raceId int REFERENCES races(raceId),
+	constructorId int REFERENCES constructors(constructorId),
+	points float, 
+	status varchar(255)
+);
+
+CREATE TABLE points_collision (
+	resultId int REFERENCES results(resultId),	
+	total_points_driver	float,
+	average_col_acc float
+);	
+select * from weather
+CREATE TABLE weather (
+	raceId	int REFERENCES races(raceId),
+	weather	varchar(255),
+	weather_type int
+);
+
+-- Creating main table as an static join from the results and the status table from where the complete analysis will start 
+
+CREATE TABLE main AS (
+	SELECT r.resultId, 
+		r.raceId, 
+		r.driverId,
+		r.constructorId, 
+		r.number,
+		r.grid, 
+		r.position,
+		r.positionText, 
+		r.positionOrder, 
+		r.points,
+		r.laps, 
+		r.time, 
+		r.milliseconds,
+		r.fastestLap,
+		r.rank, 
+		r.fastestLapTime,
+		r.fastestLapSpeed,
+		s.statusId,
+		s.status
+	FROM results AS r
+		INNER JOIN status AS s
+			ON r.statusId=s.statusId
+	WHERE raceId >=989
+);
