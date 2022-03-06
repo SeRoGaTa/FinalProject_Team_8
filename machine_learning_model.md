@@ -6,8 +6,6 @@ To answer the research question, it was necessary to explore all the available t
 
 The tables that were initially selected have information from 1950 to 2021. Carrying out a preliminary exploration of the tables, the table that has the greatest amount of information is results.csv, which has 18 columns and a total of 25,399 observations, being this the main table for this project.
 
-https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen37.png
-
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen1.png" width="550">
 
 However, due to the modifications in the formula 1 regulations, changes in the scoring and classification formats, the project period would cover from 2018 to 2021. Once the filter was made, the table was left with 1619 observations.
