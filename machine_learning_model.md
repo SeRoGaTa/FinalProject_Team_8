@@ -166,9 +166,9 @@ Using a multiple linear regression, we can try with multiple independent variabl
 
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen23.png" width="700">
 
-The results show that despite having a significant R squared of 89%, there are indications of multicollinearity in our variables, that is, there are variables that have a high correlation between more than two explanatory variables.
+The results show that despite having a significant R squared of 90%, that is, there are variables that have a high correlation between more than two explanatory variables.
 
-To try to solve the multicollinearity problem, it was decided to create a specific model for the variables that corresponded to the driver and another for the constructor.
+To try to adjust the model, it was decided to create a specific model for the variables that corresponded to the driver and another for the constructor.
 
 Driver Model
 
@@ -178,11 +178,7 @@ Constructor Model
 
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen25.png" width="700">
 
-From the results it is observed that the pilot model also presents multicollinearity problems, on the other hand, the constructor model does not present problems and obtains an R squared of 81%. The complete results can be reviewed in detail in the code of the models
-
-Finally, we fit a model considering only the variables that presented a high correlation in the Pearson correlation result. With 7 variables, the model adjusted to 88%, resulting in all variables being significant at 95%. As a result the r-squared value mean that the model predicts the dependent variable.
-
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen26.png" width="700">
+From the results it is observed that the pilot model obtain a R squared of 87%, the constructor model does not present problems and obtains an R squared of 89%. The complete results can be reviewed in detail in the code of the models. According to the results, the constructor's model is the one with the largest R squared
 
 ## Description of how data was split into training and testing sets 
 
@@ -220,9 +216,52 @@ To compare the performance of all the models, a comparative table was created, i
 
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen32.png" width="450">
 
-Because the results are low, even for the logistic regression model, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.27 and an accuracy of 0.95.
+Because the results are low, even for the logistic regression model, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.10 and an accuracy of 0.95.
 
-### Next steps
+### Explanation of changes in model choice
+
+In order to improve the model quality, the Random Forest Classifier and Gradient Boosting Classifier Regression models, both with the best F1-Score result were selected for adjustments. First calculating the feature importance in the Random Forest model 'rank_yrs_exp_driver' and 'constructor_failures_driver_constructor' the two variables with less importance were removed. Additionally, considering the imbalance in the classification modeling, the SMOTEENN technique is applied to oversample the minority class and subsampling the majority class in order to balance the data set.
+
+Other techniques as GridSearchCV were used to get the best parameters to fit the model. As a result the F1-Score increased to 0.702. This cleaning of variables were done another 3 times to find out if other variables caused noise in the model. The final Random Forest model obtain a F1-Score of 0.717.
+
+Also, some graphs were made to improve the selection of the parameters from the Gradient Boosting Classifier Regression model, with this test the values of learning rate, n_estimators, tree depth and min smaples split were set, with this tunning the model obtain a F1-Score value of 0.704.
+
+imagen 33
+
+### Description of train model and additional training
+
+The adjusted models that were calculated using the optimize parameters selection and cleaning variables that could cause noise to the model were tested using 25% of the data as test set.
+
+At the end, three of the six adjusted models with the best F1-Score value were chosen (Random Forest Classifier Fix2, Random Forest Classifier Fix4 and Gradient Boosting Classifier Regression Fix). For these models, once the model specification was calculated, the entire data set was tested to observe the prediction qualities obtenining more than 0.69 F1-Score in the three cases. 
+
+After training and testing all the data with these 3 models as a base, a comparison table showed which models were more accurate to test the hypothesis and which is more significant at the time to win a race, if the car or the driver. 
+
+In the first case, several prefabricated sets were run with information of the car with most victories (Mercedes) and different drivers who had at least won one race (Charles Lecler, Max Verstappen, Sergio Perez, Esteban Ocon). The results show that even putting drivers with the most winning car, it is not certain or likely that they can get more victories, only the number of victories of the driver Max Verstappen would increase according to our three models.
+
+imagen 34
+
+On the other side, variables from constructor were taken and altered to simulate if a good driver could perform the same with different constructor data. Hamilton data as driver were employed to test different constructor data as Red Bulls, McLaren, Alfa Romeo and Williams. These constructors were chosen because they gave us a wide range of constructor performance from great to bad. And the results were analyzed with the predicted wins the driver could have for the last 3 to 4 years of championships, 
+
+Imagen 35
+
+From the analysis the conclusions are that a good driver performance could be affected by the car he is driving in, as the table above, when Red Bull’s car were tested Hamilton wins increased but when low gamma constructor’s cars were chosen, Hamilton’s performance got completely affected with a drastic reduction of wins on the prediction column against the real win’s column. 
+
+
+### Description of current accuracy score
+
+From all the types of models created, Random Forest Classifier is the best rated by Accuracy, precision and F1 Score than the rest of the models. After validating the output from all the models, Accuracy is observed high from 0.95 to 0.96 range for most of the models analyzed; Precision has more variance in range which goes from 0.33 to 0.57 and finally F1 Score goes from 0.1 up to 0.7 as highest. Also using the prefabricated sets, confusion matrix for each model were calculated. To perform the analysis the three selected base models wich present the best scores in the classification reports were used. 
+
+Imagen 36
+
+The results are consistent with the hypothesis that was raised at the beginning, although the car has a great relevance to determine the winner of a race, the driver also has a significant weight in the possible final result.
+
+The two most important variables according to the Random Forest Classifier models are the "rankfast" (0.2760085575483338, 'rankfast'), understood as the speed of the car and the "points circuit" (0.21526410177728975, 'points_circuit'), which is understood as the total number of points of each driver in each circuit. The first variable is related to the importance of the car, while the second is related to the weight of the driver. According to these results, it can be deduced that the car has a little more weight in the result than the driver.
+
+imagen 37
+
+### Next Steps
+
+With the values above, the models could predict a win with high accuracy but not with a good precision which this last one is needed the most since the wins are just 5% of all the races result so a high precision is needed. More variables need to be fitted into the models to increase their precision on the future.
 
 Component Analysis statistical technique, could group similar variables reducing the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information. The use of this technique will depend in the number of variables that could be correlated. 
 
