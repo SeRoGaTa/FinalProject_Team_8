@@ -233,8 +233,7 @@ This is the visual schema and the relationships we will use:
 
 ![image](https://user-images.githubusercontent.com/90175232/155905091-5c8ebd89-5043-4867-8b06-62435fcf4e89.png)
 
-
-### Machine learning models
+## Machine learning models
 
 Supervised machine learning model type could deal with the research question, as the database have a columnn with the final position for every race. Machine learning models helps to predict, based on data from previous patients who driver could win based on some features.
 
@@ -274,8 +273,10 @@ In order to improve the model quality, the Random Forest Classifier and Gradient
 
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen33.png" width="450">
 
-## Visual representation and dashboards
+For more details visit the [machine learning models description](SeRoGaTa/FinalProject_Team_8/blob/9e5fd1886b0b2831038624928e9b46d7f7879080/machine_learning_model.md)
 
+## Visual representation and dashboards
+ 
 ### Tableau
 
 Tableau is a visual analytics platform transforming the way we use data to solve problems—empowering people and organizations to make the most of their data
