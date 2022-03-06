@@ -1,3 +1,4 @@
+
 # Formula 1
 The selected topic for our project is "Formula 1 history through data analysis", the purpose of this project is to show the relevance of data analysis through this sport, provide a better understanding of the sport to existing fans and provide an introduction through hard data to new fans.
 
@@ -229,51 +230,6 @@ To compare the performance of all the models, a comparative table was created, i
 
 Because the results are low, even for the logistic regression model, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.27 and an accuracy of 0.95.
 
-## Communication protocols
-
-We decide to use direct messages for only team members in Slack and establish a daily meetup time for everyone on saturdays.
-
-We use GitHub as a communication protocol by creating a personal branch for each member. Git allow us to save the progress of the project and keep the tracks of our work.
-
-<details><summary>Branch Codes</summary>
-
-### Create a branch
-
-Using branches let us work on our local repository to then update to the main branch and have the chance to review the branch or offer suggestions. In this space we can test modifications in the code without the problem of affecting the global code or the advances made
-
-```ruby
-git Branch -d nomeofbranch
-```
-
-### Open a pull request
-
-After having tested our code locally, we proceed to perform a pull request to merge the code
-
-```ruby
-git status
-git add .
-git commmit -m "Commit message"
-git push --set upstream origin <Branch-Name>
-```
-</details> 
-</details>  
-  
-  
-
-### Discuss and review
-
-At least one teammate has to review the pull request, if it is necessary suggest changes and approve the changes to be merged
-
-  Merge and deploy
-
-  After approval, the member who pull the request can merge the changes into the main branch
-
-### Week logs
-
-**Week 1**
-
-During the first week, all the members of the team investigated topics of interest that would help us to decide on a topic to work on. By vote the team decided on the topic, later we agreed on the research question.
-The team decided that each member of the team review the databases to become familiar with the data and meet over the weekend to determine which databases to use, if any transformations or joins are needed, and define the model to use.
 
 ## Visual representation and dashboards
 
