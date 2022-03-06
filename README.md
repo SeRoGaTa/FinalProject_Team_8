@@ -291,6 +291,7 @@ The objective of the project is to give an appropriate context of the sport thro
 The worksheets and the visual representation that will be used are as follows:
 
 ![image](https://user-images.githubusercontent.com/90175232/155905196-ea0753ae-e1ff-4e3e-bb0b-bd2420ef8927.png)
+
 The final dashboard will include a combination of this worksheets visual representation.
 
 ### Presentation
