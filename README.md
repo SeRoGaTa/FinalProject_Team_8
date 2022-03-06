@@ -273,7 +273,7 @@ In order to improve the model quality, the Random Forest Classifier and Gradient
 
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen33.png" width="450">
 
-For more details visit the [machine learning models description](SeRoGaTa/FinalProject_Team_8/blob/9e5fd1886b0b2831038624928e9b46d7f7879080/machine_learning_model.md)
+For more details visit the [machine learning models description](9e5fd1886b0b2831038624928e9b46d7f7879080/machine_learning_model.md)
 
 ## Visual representation and dashboards
  
