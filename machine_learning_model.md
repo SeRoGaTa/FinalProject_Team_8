@@ -6,6 +6,8 @@ To answer the research question, it was necessary to explore all the available t
 
 The tables that were initially selected have information from 1950 to 2021. Carrying out a preliminary exploration of the tables, the table that has the greatest amount of information is results.csv, which has 18 columns and a total of 25,399 observations, being this the main table for this project.
 
+https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen37.png
+
 <img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen1.png" width="550">
 
 However, due to the modifications in the formula 1 regulations, changes in the scoring and classification formats, the project period would cover from 2018 to 2021. Once the filter was made, the table was left with 1619 observations.
@@ -50,31 +52,31 @@ With this in mind, more variables are created and analyzed to explain the princi
 
 In the pit-stops variable, the relationship between the winner of the race is not determinant. This can be easily seen, since a constructor that finishes first and a constructor that finishes last can have the same number of pit stops. The variation between the number of stops per team is not representative in the graph. Likewise, in this graph you can see cases where there are more pit-stops than what is estimated on average among constructors.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen8.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen8.png" width="300">
 
 - Constructor points per season
 
 During each race, each constructor gets a sum of point depending on the final place, at the end of the season the constructor end with a total sum of points. Regarding the correlation between the season points and the final position, it is shown that the constructor that has more points accumulated during the season, will be the constructor that end in the first place.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen9.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen9.png" width="300">
 
 - Constructor points per circuit
 
 As mention before, the constructor gets points in every circuit, in this correlational chart is shown almost the same behavior that it is shown in the last variable (points per season). If a constructor gets more points in a circuit it will be the winner of that circuit, also it is important to mention, that this is a constructor analysis, meaning that the total of points is the sum of points that every pilot gets for the team.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen10.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen10.png" width="300">
 
 - Constructor failures average per circuit
 
 In every race it is common that at least one constructor present a failure during a race, as shown in the next image, in average the majority of the constructor has between 0 and 1 failure during a circuit. In rare cases there are constructors that has more than 5 failures during a circuit, but this is not a normal behavior.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen11.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen11.png" width="300">
 
 - Constructor Failures Average per circuit to each driver 
 
 To understand the behavior of this variable, the average number of failures per pilot was also calculated, which are related to manufacturer failures. In general, the number of faults is never greater than 1 for each circuit.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen12.png" width="350">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen12.png" width="350">
 
 According to the data, the manufacturers with the highest number of failures are Ferrari and McLaren, while the drivers with the highest average number of failures are Alonso and Ricciardo. In the next graphics it is shown the number of failures each constructor had has, and also per driver.
 
@@ -88,7 +90,7 @@ According to the data, the manufacturers with the highest number of failures are
 
 To calculate the experience variable, the total number of years that each driver has driven was counted and the Rank() function was applied to order in descending order, where the value of 1 represents the runner with the most experience.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen15.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen15.png" width="300">
 
 This correlation presents a relationship between the runners with the greatest number of years of competition and the final position of the race.
 
@@ -96,7 +98,7 @@ This correlation presents a relationship between the runners with the greatest n
 
 To calculate this variable, we add the total number of races that each of the drivers has run, then the Rank() function is applied to order them in descending order, where the value of 1 represents the runner with the most experience.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen16.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen16.png" width="300">
 
 It is observed that the greater experience, the more possibilities a pilot has to remain in the first positions, but not so the pilots with less experience, who usually remain in the last places.
 
@@ -104,7 +106,7 @@ It is observed that the greater experience, the more possibilities a pilot has t
 
 This variable was calculated by filtering the runners who have won a race, then the sum per runner is obtained and the column is added to the maindf, then the Rank() function was applied to order in descending order, where the value of 1 represents the runner with the highest number of wins.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen17.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen17.png" width="300">
 
 In this case, although the relationship is not strong, it is observed that the runners who have won once have a good chance of winning again, however, the result is not totally determinant.
 
@@ -112,7 +114,7 @@ In this case, although the relationship is not strong, it is observed that the r
 
 To calculate this variable, we add the total number of races that each of the drivers has run on each of the tracks, then the Rank() function was applied to order in descending order, where the value of 1 represents the runner with the most experience. on each of the tracks.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen18.png" width="350">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen18.png" width="400">
 
 For this correlation, such a linear relationship is not observed, which can be explained because there are some tracks that have been run a few times and even so there is a winner or there are drivers who, despite having a lot of experience, can end up in the last places.
 
@@ -120,7 +122,7 @@ For this correlation, such a linear relationship is not observed, which can be e
 
 To calculate this variable, the sum of the times a driver has a qualifying position for all the races is obtained.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen19.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen19.png" width="300">
 
 It is observed that the pilots who have had the pole position at some time are more likely to be in the first places than those who have never won it.
 
@@ -128,13 +130,13 @@ It is observed that the pilots who have had the pole position at some time are m
 
 In a F1 race, crashes are one thing that happen and affect the result of the race. In average a pilot has less than 0.14 crash, but as it is shown in the graphic as higher is the number of crashes, the result will be losing the race.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen20.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen20.png" width="300">
 
 - Driver total points
 
 Points are awarded to drivers in every race they finish, the winner receives 25 points, the second finisher 18 points, and so on. The next image shows how the points are distributed by driver, and it is shown that the distribution of point per driver is divided between all drivers.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen21.png" width="300">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen21.png" width="300">
 
 **External factors**
 
@@ -154,7 +156,7 @@ We are interested on identify the linear relationship between some variables and
 
 In order to know how the variables are related, it was decided to make a correlation matrix that would present us with the dependence of each one.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen22.png" width="600">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen22.png" width="600">
 
 The variables with the greatest relationship between them are those that refer to the experience of the driver (rank_yrs_exp_driver and rank_exp_driver)
 
@@ -164,7 +166,7 @@ Multiple linear models could work as an exploratory tool to quantify and measure
 
 Using a multiple linear regression, we can try with multiple independent variables to account for parts of the total variance observed in the dependent variable. To understand the relationship between the variables and their degree of significance, a multiple linear regression model was run.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen23.png" width="700">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen23.png" width="700">
 
 The results show that despite having a significant R squared of 90%, that is, there are variables that have a high correlation between more than two explanatory variables.
 
@@ -172,11 +174,11 @@ To try to adjust the model, it was decided to create a specific model for the va
 
 Driver Model
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen24.png" width="700">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen24.png" width="700">
 
 Constructor Model
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen25.png" width="700">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen25.png" width="700">
 
 From the results it is observed that the pilot model obtain a R squared of 87%, the constructor model does not present problems and obtains an R squared of 89%. The complete results can be reviewed in detail in the code of the models. According to the results, the constructor's model is the one with the largest R squared
 
@@ -198,23 +200,23 @@ For the exercise, 4 different types of model were run, logistic regressions, Sup
 
 Logistic regression predicts binary outcomes and evaluates the probability of an occurrence. The model would take features into account and decide whether a driver can or not win meaning that there are only two possible outcomes.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen28.png" width="350">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen28.png" width="350">
 
 Like logistic regression, Support vector machine (SVM) is another supervised learning model that can be uses to classify if a sample is categorized into one of two possibilities (win or lose).
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen29.png" width="350">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen29.png" width="350">
 
 Applying a Random forest algorithm, we can rank the importance of input variables in order to remove some variables that could be affecting the model. 
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen30.png" width="350">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen30.png" width="350">
 
 Gradient boosting is a type of machine learning boosting. It relies on the intuition that the best possible next model, when combined with previous models, minimizes the overall prediction error. The key idea is to set the target outcomes for this next model in order to minimize the error.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen31.png" width="350">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen31.png" width="350">
 
 To compare the performance of all the models, a comparative table was created, it is observed that logistic regression model is the one that presents the highest precision and the highest result in the F1 Score.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen32.png" width="450">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen32.png" width="450">
 
 Because the results are low, even for the logistic regression model, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.10 and an accuracy of 0.95.
 
@@ -226,7 +228,7 @@ Other techniques as GridSearchCV were used to get the best parameters to fit the
 
 Also, some graphs were made to improve the selection of the parameters from the Gradient Boosting Classifier Regression model, with this test the values of learning rate, n_estimators, tree depth and min smaples split were set, with this tunning the model obtain a F1-Score value of 0.704.
 
-imagen 33
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen33.png" width="450">
 
 ### Description of train model and additional training
 
@@ -238,11 +240,11 @@ After training and testing all the data with these 3 models as a base, a compari
 
 In the first case, several prefabricated sets were run with information of the car with most victories (Mercedes) and different drivers who had at least won one race (Charles Lecler, Max Verstappen, Sergio Perez, Esteban Ocon). The results show that even putting drivers with the most winning car, it is not certain or likely that they can get more victories, only the number of victories of the driver Max Verstappen would increase according to our three models.
 
-imagen 34
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen34.png" width="450">
 
 On the other side, variables from constructor were taken and altered to simulate if a good driver could perform the same with different constructor data. Hamilton data as driver were employed to test different constructor data as Red Bulls, McLaren, Alfa Romeo and Williams. These constructors were chosen because they gave us a wide range of constructor performance from great to bad. And the results were analyzed with the predicted wins the driver could have for the last 3 to 4 years of championships, 
 
-Imagen 35
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen35.png" width="450">
 
 From the analysis the conclusions are that a good driver performance could be affected by the car he is driving in, as the table above, when Red Bull’s car were tested Hamilton wins increased but when low gamma constructor’s cars were chosen, Hamilton’s performance got completely affected with a drastic reduction of wins on the prediction column against the real win’s column. 
 
@@ -251,13 +253,13 @@ From the analysis the conclusions are that a good driver performance could be af
 
 From all the types of models created, Random Forest Classifier is the best rated by Accuracy, precision and F1 Score than the rest of the models. After validating the output from all the models, Accuracy is observed high from 0.95 to 0.96 range for most of the models analyzed; Precision has more variance in range which goes from 0.33 to 0.57 and finally F1 Score goes from 0.1 up to 0.7 as highest. Also using the prefabricated sets, confusion matrix for each model were calculated. To perform the analysis the three selected base models wich present the best scores in the classification reports were used. 
 
-Imagen 36
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen36.png" width="450">
 
 The results are consistent with the hypothesis that was raised at the beginning, although the car has a great relevance to determine the winner of a race, the driver also has a significant weight in the possible final result.
 
 The two most important variables according to the Random Forest Classifier models are the "rankfast" (0.2760085575483338, 'rankfast'), understood as the speed of the car and the "points circuit" (0.21526410177728975, 'points_circuit'), which is understood as the total number of points of each driver in each circuit. The first variable is related to the importance of the car, while the second is related to the weight of the driver. According to these results, it can be deduced that the car has a little more weight in the result than the driver.
 
-imagen 37
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen37.png" width="450">
 
 ### Next Steps
 
