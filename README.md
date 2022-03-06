@@ -1,3 +1,8 @@
+# FinalProject_Team_8
+
+### Team members
+
+  -Ricardo Barba @ -Sergio Gaytan @ -Jorge Ponce @ -Raciel Tavitas @
 
 # Formula 1
 The selected topic for our project is "Formula 1 history through data analysis", the purpose of this project is to show the relevance of data analysis through this sport, provide a better understanding of the sport to existing fans and provide an introduction through hard data to new fans.
@@ -7,14 +12,68 @@ F1 is a racing competition that has an incredible history through all these year
 
 With every single competition or race performed, hard data from the event is provided just like racing times, number of laps, pit stops, drivers’ final positions, etc. that can help analyze more intangible characteristics, just like skill, teams´ preparation or drivers’ resilience through data analysis.
 
-The data for analysis is available and verifiable, also, the data is diverse (times, stop counts, accidents, mechanical failures, etc.) so is perfect to demonstrate and place in practice the importance of data analysis for understanding sports, businesses, history and almost every topic that can be measured.
+The data for analysis is available and verifiable, also, the data is diverse (times, stop counts, accidents, mechanical failures, etc.) so is able to demonstrate and place in practice the importance of data analysis for understanding sports, businesses, history and almost every topic that can be measured.
 
 In this project, we are interested in identifying and determining the main factors that have an effect in a race and its impact in the outcome.
 Formula 1 races have two fundamental elements that constantly interact, the drivers and the cars.
 
-## Database Source
+## Questions to be answered
 
-We looked for information that can be usable for these purposes, the characteristics of the data that we could use for the purposes of our project are the following:
+The objective of the project is to display all the relevant data generated from this sport to obtain and understanding of the sport through data analysis for fans and new enthusiasts of the sport.
+
+Build a narrative of how the results and outcomes per race are built through data analysis and use this information and understanding to predict the outcome of the incoming races and consequently the season winner.
+
+Some of the questions we have initially designed with the available datasets are the following:
+
+•	How relevant is the driver vs the car to determine a race output?
+
+•	How relevant are the number of pit stop to determine a race output?
+
+•	Are the mechanical failures relevant to determine a race output or winner?
+
+•	How relevant are the number of pole positions to determine a race output or winner?
+
+•	Which factors are the determinant to get a F1 race winner?
+
+•	Identify which other variables could be relevant to affect the result of a race.
+
+### Technologies Used
+
+ - Data Cleaning and Analysis
+
+Python pyspark and pandas will be used to clean the data and perform an exploratory analysis. As a query technology we will use SQL in PG Admin4  to merge and query the complete data prior to start our analysis.
+ 
+ - Database Storage
+
+AWS RDS, AWS S3, Python Pyspark and postgres will be the tools we will use to store and read our data from SQL cloud service, we will use python to read the information out from SQL source and will start the analysis from there.
+
+
+  We will use 15 F1 related data.
+
+- Machine Learning
+
+For Correlation analysis we will use python to quantify the correlation between variables. Also we will use the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
+
+For Machine Learning we are planning to use sklearn (LogisticRegression, SVC and RandomForestClassifier) module. Also if it is necessary we will use tensorflow to run a neural network model
+
+ - Dashboard
+
+In order to create visual graphs and the story telling about our analysis, we will use Tableau and python as the visualization tool among others. With this we will be able to share our findings in a more graphical manner for our collaborators.
+
+### Database
+
+The database is the main input for the project, the databse processing will be distributed as follows:
+
+•	Extract
+
+•	Data exploration and transformation
+
+•	Load database for use
+
+
+## Extraction and description
+
+The first step of the project is to identify useful sources and databaes for the purposes of this project, the characteristics of the database are:
 
 •	Should be accurate.
 
@@ -22,15 +81,16 @@ We looked for information that can be usable for these purposes, the characteris
 
 •	Should be diverse enough to perform our analysis.
 
-Accuracy
-
 Through the research of readily an accurate data the project team identified a compile that is useful for this purpose.
+
 The project team inspected randomly some of the data to verify its accuracy through researching on motorsport websites and news to compare the data to the events reported on specialized media. 
 
 The project team concluded that the data is accurate and can be used for the purpose of this project the compilation can be found in the following URL:
 Formula 1 World Championship (1950 - 2021)
 
 <details><summary>Tables Description</summary>
+
+A description of the datasets extracted is detailed below:
 
 **Table 1.- Circuits**
 
@@ -125,29 +185,9 @@ This dataset describes and assigns an identifier number to the status of the dri
 
 We are going to analyzed this data and clean it, and get only the information that will help us to get the answered that we are looking for. The answer to our question “- Which factor is the determinant to get a F1 winner?”.
 
-## Questions to be answered
+## Data exploration and analysis
 
-The objective of the project is to display all the relevant data generated from this sport to obtain and understanding of the sport through data analysis for fans and new enthusiasts of the sport.
-
-Build a narrative of how the results and outcomes per race are built through data analysis and use this information and understanding to predict the outcome of the incoming races and consequently the season winner.
-
-Some of the questions we have initially designed with the available datasets are the following:
-
-•	How relevant is the driver vs the car to determine a championship output?
-
-•	How relevant is the pit stop average time to a championship output?
-
-•	Which are the most relevant mechanical failures to determine a constructor, championship output?
-
-•	How relevant is the number of pole positions to the championship output?
-
-•	Which factor is the determinant to get a F1 winner?
-
-•	Factors like time in the pits, type of tracks, crucial faults, qualifying times affect the result?
-
-For us to get to the answer we are going to analyze the data regarding some important racing factors.
-
-To answer the research question, it was necessary to explore all the available tables to identify which variables could be used for the models.
+To answer the research questions, it was necessary to explore all the available tables to identify which variables could be used for the models.
 
 The tables that were initially selected have information from 1950 to 2021. Carrying out a preliminary exploration of the tables, the table that has the greatest amount of information is results.csv, which has 18 columns and a total of 25,399 observations, being this the main table for this project.
 
@@ -194,7 +234,7 @@ This is the visual schema and the relationships we will use:
 ![image](https://user-images.githubusercontent.com/90175232/155905091-5c8ebd89-5043-4867-8b06-62435fcf4e89.png)
 
 
-## Machine learning models
+### Machine learning models
 
 Supervised machine learning model type could deal with the research question, as the database have a columnn with the final position for every race. Machine learning models helps to predict, based on data from previous patients who driver could win based on some features.
 
@@ -249,30 +289,12 @@ The worksheets and the visual representation that will be used are as follows:
 ![image](https://user-images.githubusercontent.com/90175232/155905196-ea0753ae-e1ff-4e3e-bb0b-bd2420ef8927.png)
 The final dashboard will include a combination of this worksheets visual representation.
 
-## Technologies Used
+### Presentation
 
- - Data Cleaning and Analysis
-
-Python pyspark and pandas will be used to clean the data and perform an exploratory analysis. As a query technology we will use SQL in PG Admin4  to merge and query the complete data prior to start our analysis.
- 
- - Database Storage
-
-AWS RDS, AWS S3, Python Pyspark and postgres will be the tools we will use to store and read our data from SQL cloud service, we will use python to read the information out from SQL source and will start the analysis from there.
+A link to the presentation to the summary of this project is the following:
 
 
-  We will use 15 F1 related data.
-
-- Machine Learning
-
-For Correlation analysis we will use python to quantify the correlation between variables. Also we will use the sklearn for linear regression module in python to calculate the multiple linear regression model. The idea is to apply linear regression to define the level of relationship between variables
-
-For Machine Learning we are planning to use sklearn (LogisticRegression, SVC and RandomForestClassifier) module. Also if it is necessary we will use tensorflow to run a neural network model
-
- - Dashboard
-
-In order to create visual graphs and the story telling about our analysis, we will use Tableau and python as the visualization tool among others. With this we will be able to share our findings in a more graphical manner for our collaborators.
 
 
-## Team members
 
-  -Ricardo Barba @ -Sergio Gaytan @ -Jorge Ponce @ -Raciel Tavitas @
+
