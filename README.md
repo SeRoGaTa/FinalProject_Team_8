@@ -298,6 +298,6 @@ The final dashboard will include a combination of this worksheets visual represe
 
 A link to the presentation to the summary of this project is the following:
 
-
+https://docs.google.com/presentation/d/1Qmr-si_AAy_0k_wWwyQI-lI4nOjMow6y7V-ttSQJkt0/edit#slide=id.p
 
 https://public.tableau.com/app/profile/raciel3899/viz/FINALPROJECT8/F1PROJECT?publish=yes
