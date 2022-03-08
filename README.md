@@ -300,7 +300,11 @@ Some examples of the visual representation of context data from the sport are as
 
 A visual representation of the models created is as follows:
 
+![image](https://user-images.githubusercontent.com/90175232/157268724-5baade7a-5e32-49df-9194-7d0d25ab2f39.png)
 
+![image](https://user-images.githubusercontent.com/90175232/157268801-31058847-16ea-4bf8-af69-cd4ae7d54cad.png)
+
+![image](https://user-images.githubusercontent.com/90175232/157268898-a310e045-562e-4e90-b460-8f5bf690f99d.png)
 
 
 ### Presentation
