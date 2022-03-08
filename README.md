@@ -288,11 +288,20 @@ Tableau is acknowledged as one of the leaders in industry to cover BI&A (Busines
 The results and graphic representation of the project will be displayed in Tableau.
 The objective of the project is to give an appropriate context of the sport through data before trying to predict the outcome of future races, so we will create and plot worksheets with relevant information to give the user a complete story and relevant data of the sport.
 
-The worksheets and the visual representation that will be used are as follows:
+Some examples of the visual representation of context data from the sport are as follows:
 
-![image](https://user-images.githubusercontent.com/90175232/155905196-ea0753ae-e1ff-4e3e-bb0b-bd2420ef8927.png)
+![image](https://user-images.githubusercontent.com/90175232/157268328-45dbdf7c-f4dd-45a0-b899-d6dd221937a3.png)
 
-The final dashboard will include a combination of this worksheets visual representation.
+![image](https://user-images.githubusercontent.com/90175232/157268437-9695faa0-f67d-449d-82e7-0af97315260d.png)
+
+
+
+
+
+A visual representation of the models created is as follows:
+
+
+
 
 ### Presentation
 
