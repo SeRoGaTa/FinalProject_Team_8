@@ -1,5 +1,29 @@
 # FinalProject_Team_8
 
+Topic selected	Why we choose the topic?
+	Question to be answered
+Technologies used	Data cleaning and analysis
+	Database storage
+	Machine Learning
+	Dashboard
+Database	Extraction and description
+	Data exploration and analysis
+	Database integration
+Machine learning models	Logistic regressions
+	Support vector machines
+	Random forest classifier
+	Gradient boost classifier
+Visual representation and dashboards	Visual representation of context data
+	Visual representation of ML models
+Links	Presentation
+	Interactive dashboard
+![image](https://user-images.githubusercontent.com/90175232/157557810-35017bb7-e196-4c89-8bdc-64c7f77ada23.png)
+
+
+
+
+
+
 ### Team members
 
   -Ricardo Barba @ -Sergio Gaytan @ -Jorge Ponce @ -Raciel Tavitas @
