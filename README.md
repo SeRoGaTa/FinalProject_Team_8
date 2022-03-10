@@ -1,5 +1,8 @@
 # FinalProject_Team_8
 
+![image](https://user-images.githubusercontent.com/90175232/157557810-35017bb7-e196-4c89-8bdc-64c7f77ada23.png)
+
+
 ### Team members
 
   -Ricardo Barba @ -Sergio Gaytan @ -Jorge Ponce @ -Raciel Tavitas @
@@ -233,8 +236,7 @@ This is the visual schema and the relationships we will use:
 
 ![image](https://user-images.githubusercontent.com/90175232/155905091-5c8ebd89-5043-4867-8b06-62435fcf4e89.png)
 
-
-### Machine learning models
+## Machine learning models
 
 Supervised machine learning model type could deal with the research question, as the database have a columnn with the final position for every race. Machine learning models helps to predict, based on data from previous patients who driver could win based on some features.
 
@@ -244,35 +246,40 @@ For the exercise, 4 different types of model were run, logistic regressions, Sup
 
 Logistic regression predicts binary outcomes and evaluates the probability of an occurrence. The model would take features into account and decide whether a driver can or not win meaning that there are only two possible outcomes.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen28.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen28.png" width="350">
 
 **Support Vector Machines**
 
 Like logistic regression, Support vector machine (SVM) is another supervised learning model that can be uses to classify if a sample is categorized into one of two possibilities (win or lose).
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen29.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen29.png" width="350">
 
 **Random Forest Classifier**
 
 Applying a Random forest algorithm, we can rank the importance of input variables in order to remove some variables that could be affecting the model. 
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen30.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen30.png" width="350">
 
 **Gradient Boosting Classifier**
 
 Gradient boosting is a type of machine learning boosting. It relies on the intuition that the best possible next model, when combined with previous models, minimizes the overall prediction error. The key idea is to set the target outcomes for this next model in order to minimize the error.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen31.png" width="400">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen31.png" width="350">
 
 To compare the performance of all the models, a comparative table was created, it is observed that logistic regression model is the one that presents the highest precision and the highest result in the F1 Score.
 
-<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/97ae729293d3cbca9cf8f71370919f7f0acb455b/Images/Imagen32.png" width="450">
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen32.png" width="450">
 
-Because the results are low, even for the logistic regression model, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.27 and an accuracy of 0.95.
+Because the results are low, it was decided to run a neural network model to evaluate every interaction within and across neurons. With two hidden layers we can get a Loss of 0.10 and an accuracy of 0.95.
 
+In order to improve the model quality, the Random Forest Classifier and Gradient Boosting Classifier Regression models, both with the best F1-Score result were selected for adjustments. First calculating the feature importance in the Random Forest model 'rank_yrs_exp_driver' and 'constructor_failures_driver_constructor' the two variables with less importance were removed. Additionally, considering the imbalance in the classification modeling, the SMOTEENN technique is applied to oversample the minority class and subsampling the majority class in order to balance the data set.
+
+<img src="https://github.com/SeRoGaTa/FinalProject_Team_8/blob/2335a30a302771dd0b6621d410fcada671f61eeb/Images/Imagen33.png" width="450">
+
+For more details visit the [machine learning models description](machine_learning_model.md)
 
 ## Visual representation and dashboards
-
+ 
 ### Tableau
 
 Tableau is a visual analytics platform transforming the way we use data to solve problems—empowering people and organizations to make the most of their data
@@ -284,17 +291,29 @@ Tableau is acknowledged as one of the leaders in industry to cover BI&A (Busines
 The results and graphic representation of the project will be displayed in Tableau.
 The objective of the project is to give an appropriate context of the sport through data before trying to predict the outcome of future races, so we will create and plot worksheets with relevant information to give the user a complete story and relevant data of the sport.
 
-The worksheets and the visual representation that will be used are as follows:
+Some examples of the visual representation of context data from the sport are as follows:
 
-![image](https://user-images.githubusercontent.com/90175232/155905196-ea0753ae-e1ff-4e3e-bb0b-bd2420ef8927.png)
-The final dashboard will include a combination of this worksheets visual representation.
+![image](https://user-images.githubusercontent.com/90175232/157268328-45dbdf7c-f4dd-45a0-b899-d6dd221937a3.png)
+
+![image](https://user-images.githubusercontent.com/90175232/157268437-9695faa0-f67d-449d-82e7-0af97315260d.png)
+
+
+
+
+
+A visual representation of the models created is as follows:
+
+![image](https://user-images.githubusercontent.com/90175232/157268724-5baade7a-5e32-49df-9194-7d0d25ab2f39.png)
+
+![image](https://user-images.githubusercontent.com/90175232/157268801-31058847-16ea-4bf8-af69-cd4ae7d54cad.png)
+
+![image](https://user-images.githubusercontent.com/90175232/157268898-a310e045-562e-4e90-b460-8f5bf690f99d.png)
+
 
 ### Presentation
 
 A link to the presentation to the summary of this project is the following:
 
+https://docs.google.com/presentation/d/1Qmr-si_AAy_0k_wWwyQI-lI4nOjMow6y7V-ttSQJkt0/edit#slide=id.p
 
-
-
-
-
+https://public.tableau.com/app/profile/raciel3899/viz/FINALPROJECT8/F1PROJECT?publish=yes
