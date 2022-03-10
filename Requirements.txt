@@ -1,0 +1,52 @@
+Programs used: GitHub, Google Colab, PG Admin 4, Jupyter Notebook, Google Colab and Tableau
+
+Python libraries used: 
+
+# formula1_savingdata_RDS.ipynb
+- os
+- findspark 
+- pyspark.sql (SparkSession, SparkFiles)
+
+# PreprocessingData.ipynb
+- pandas
+  | pandas.io.sql
+- numpy
+- psycop2
+- scipy.stats (pearsonr)
+- matplotlib (style)
+  | matplotlib.pyplot
+- seaborn
+- selenium 
+
+# Weather.ipynb
+- pandas
+- numpy
+- selenium (webdriver)
+- time
+- ssl
+- wikipedia
+- webdriver_manager.chrome (ChromeDriverManager)
+
+# MachineLearningModel.ipynb
+- numpy
+- pandas
+- hvplot.pandas
+- path (Path)
+- plotly.express
+- matplotlib.pyplot
+- seaborn 
+- scipy.stats (pearsonr)
+- statsmodels.api
+- warnings 
+- collections (Counter)
+- sklearn.model_selection (train_test_split, StratifiedKFold, GridSearchCV)
+- sklearn.preprocessing (StandardScaler, MinMaxScaler)
+- sklearn.linear_model (LinearRegression)
+- sklearn.metrics (r2_score, mean_squared_error)
+- sklearn (linear_model)
+- sklearn.linear_model (LogisticRegression)
+- sklearn.svm (SVC)
+- sklearn.ensemble (RandomForestClassifier)
+- sklearn.ensemble (GradientBoostingClassifier)
+- tensorflow
+- sklearn.metrics (confusion_matrix, make_scorer, roc_curve, auc, accuracy_score, balanced_accuracy_score, precision_score, f1_score, recall_score, classification_report)
