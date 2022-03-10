@@ -264,5 +264,3 @@ The two most important variables according to the Random Forest Classifier model
 With the values above, the models could predict a win with high accuracy but not with a good precision which this last one is needed the most since the wins are just 5% of all the races result so a high precision is needed. More variables need to be fitted into the models to increase their precision on the future.
 
 Component Analysis statistical technique, could group similar variables reducing the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information. The use of this technique will depend in the number of variables that could be correlated. 
-
-Another alternative is to try to improve the performance of the logarithmic model by reducing the number of variables in the model, since some could be generating noise.
